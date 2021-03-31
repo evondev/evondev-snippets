@@ -137,10 +137,10 @@
   "CSS for placeholder": {
     "prefix": "input-placeholder",
     "body": [
-      "&::-webkit-input-placeholder{",
+      "$1::-webkit-input-placeholder{",
       "color: $1;",
       "}",
-      "&::-moz-input-placeholder{",
+      "$1::-moz-input-placeholder{",
       "color: $1;",
       "}"
     ],
@@ -174,8 +174,9 @@
       "font-size: $1;",
       "font-weight: $2;",
       "color: $3;",
-      "line-height: $4;",
-      "font-family: ${5: inherit};"
+      "line-height: ${4: inherit;}",
+      "font-family: ${5: inherit};",
+      "margin: ${6: 0};"
     ],
     "description": "CSS for text"
   },
@@ -187,9 +188,8 @@
       "border-radius: $3;",
       "background-color: $4;",
       "width: ${5:auto};",
-      "display: ${6:inline-block};",
-      "&::-webkit-input-placeholder{color: $7;}",
-      "&::-moz-input-placeholder{color: $7;}"
+      "display: ${6:block};",
+      "color: $7;"
     ],
     "description": "CSS for input"
   },
@@ -203,6 +203,8 @@
       "color: $2;",
       "font-size: $3;",
       "border-radius: $4;",
+      "padding: $5;",
+      "width: ${6: auto;}",
       "cursor: pointer;",
       "outline: none;"
     ],
@@ -475,5 +477,81 @@
     "prefix": "not-first-child",
     "body": [":not(:first-child) {", "$1;", "}"],
     "description": "Not first child"
+  },
+  "Background linear gradient": {
+    "prefix": "bg-linear",
+    "body": ["background-image: linear-gradient(${1: to right}, $2, $3);"],
+    "description": "Background linear gradient"
+  },
+  "Keyframes ": {
+    "prefix": "@keyframes",
+    "body": ["@keyframes $1{", "$2", "}"],
+    "description": "Keyframes "
+  },
+  "Boxshadow base on background": {
+    "prefix": "shadow-bg",
+    "body": [
+      "position: relative;",
+      "&:after {",
+      "  content: \"\";",
+      "  width: 100%;",
+      "  height: 100%;",
+      "  position: absolute;",
+      "  left: 0;",
+      "  top: 0;",
+      "  border-radius: inherit;",
+      "  transform: translate($1, $1);",
+      "  background-color: inherit;",
+      "  background-image: inherit;",
+      "  filter: brightness(${2: 75%});",
+      "  z-index: -1;",
+      "}"
+    ],
+    "description": "Boxshadow base on background"
+  },
+  "CSS supports": {
+    "prefix": "@support",
+    "body": ["@supports ($1){", "$2", "}"],
+    "description": "CSS supports"
+  },
+  "CSS box shadow": {
+    "prefix": "shadow",
+    "body": ["box-shadow: $1 $2 $3 $4 ${5: rgba($6)}"],
+    "description": "CSS box shadow"
+  },
+  "CSS text shadow": {
+    "prefix": "text-shadow",
+    "body": ["text-shadow: $1 $2 $3 $4;"],
+    "description": "CSS text shadow"
+  },
+  "CSS text gradient": {
+    "prefix": "text-gradient",
+    "body": [
+      "color: transparent;",
+      "background-clip: text;",
+      "-webkit-background-clip: text;",
+      "background-image: linear-gradient(${1: to right}, ${2: #}, ${3: #});"
+    ],
+    "description": "CSS text gradient"
+  },
+  "Position absolute top left": {
+    "prefix": "abs-top-left",
+    "body": ["position: absolute;", "top: ${1:0};", "left: ${2:0};"],
+    "description": "Position absolute top left"
+  },
+  "Position absolute top right": {
+    "prefix": "abs-top-right",
+    "body": ["position: absolute;", "top: ${1:0};", "right: ${2:0};"],
+    "description": "Position absolute top right"
+  },
+  "Position absolute bottom right": {
+    "prefix": "abs-bottom-right",
+    "body": ["position: absolute;", "bottom: ${1:0};", "right: ${2:0};"],
+    "description": "Position absolute bottom right"
+  },
+  "Position absolute bottom left": {
+    "prefix": "abs-bottom-left",
+    "body": ["position: absolute;", "bottom: ${1:0};", "left: ${2:0};"],
+    "description": "Position absolute bottom left"
   }
 }

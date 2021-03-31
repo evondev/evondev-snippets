@@ -3,9 +3,9 @@
   "displayName": "Evondev snippets",
   "description": "Useful CSS snippets for developer",
   "publisher": "evondev",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "engines": {
-    "vscode": "^1.54.0"
+    "vscode": "^1.51.0"
   },
   "repository": {
     "type": "git",

@@ -1,8 +1,12 @@
 # evondev-snippets README
 
-Useful css snippets that you will always use in most time of coding
+Useful CSS snippets that will help you save a lot of time when coding
 
-## Features
+## Notice
+
+Some snippets will warning in Vanilla CSS because some code I write base on SASS way
+
+## Table of snippets
 
 | Prefix              | Code                                                                                                                                      |
 | ------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- |
@@ -37,3 +41,14 @@ Useful css snippets that you will always use in most time of coding
 | `css-show`          | Show element when using css-hide before                                                                                                   |
 | `box-auto`          | Auto element                                                                                                                              |
 | `text-style`        | Useful css for text                                                                                                                       |
+| `abs-top-left`      | Position absolute top left                                                                                                                |
+| `abs-top-right`     | Position absolute top right                                                                                                               |
+| `abs-bottom-left`   | Position absolute bottom left                                                                                                             |
+| `abs-bottom-right`  | Position absolute bottom left                                                                                                             |
+| `bg-linear`         | CSS background linear gradient                                                                                                            |
+| `shadow-bg`         | Create box shadow base on background color or background gradient                                                                         |
+| `@supports`         | Support rule in css for properties did not support for most browsers                                                                      |
+| `text-gradient`     | Create text gradient                                                                                                                      |
+| `text-shadow`       | Create text shadow                                                                                                                        |
+| `shadow`            | Create shadow                                                                                                                             |
+| `@keyframes`        | Keyframes animation                                                                                                                       |
