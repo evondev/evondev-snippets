@@ -19,7 +19,7 @@
       "position: absolute;",
       "top: 50%;",
       "left: 50%;",
-      "transform: translate(-50%,-50%)"
+      "transform: translate(-50%,-50%);"
     ],
     "description": "Absolute center both direction"
   },
@@ -28,13 +28,17 @@
     "body": [
       "position: absolute;",
       "left: 50%;",
-      "transform: translateX(-50%)"
+      "transform: translateX(-50%);"
     ],
     "description": "Position absolute center X direction"
   },
   "Position absolute center Y direction": {
     "prefix": "abs-centery",
-    "body": ["position: absolute;", "top: 50%;", "transform: translateY(-50%)"],
+    "body": [
+      "position: absolute;",
+      "top: 50%;",
+      "transform: translateY(-50%);"
+    ],
     "description": "Position absolute center Y direction"
   },
   "Flexbox center column": {
@@ -88,15 +92,10 @@
     ],
     "description": "Text truncation in one line"
   },
-  "CSS square": {
-    "prefix": "square",
-    "body": ["width: $1;", "height: $1;"],
-    "description": "CSS square"
-  },
-  "CSS rectangle": {
-    "prefix": "rect",
+  "CSS size": {
+    "prefix": "size",
     "body": ["width: $1;", "height: $2;"],
-    "description": "CSS rectangle"
+    "description": "CSS size"
   },
   "CSS circle": {
     "prefix": "circle",
@@ -139,10 +138,10 @@
     "prefix": "input-placeholder",
     "body": [
       "&::-webkit-input-placeholder{",
-      "$1;",
+      "color: $1;",
       "}",
       "&::-moz-input-placeholder{",
-      "$1;",
+      "color: $1;",
       "}"
     ],
     "description": "CSS for placeholder"
@@ -176,7 +175,7 @@
       "font-weight: $2;",
       "color: $3;",
       "line-height: $4;",
-      "font-family: ${5: inherit};$6"
+      "font-family: ${5: inherit};"
     ],
     "description": "CSS for text"
   },
@@ -238,7 +237,7 @@
       "touch-action: manipulation;",
       "-webkit-overflow-scrolling: touch;",
       "scroll-padding: 1rem;",
-      "grid-template-columns: unset",
+      "grid-template-columns: unset;",
       "&::-webkit-scrollbar {",
       "  display: none;",
       "  width: 0;",
@@ -248,5 +247,233 @@
       "}"
     ],
     "description": "CSS mobile scroll"
+  },
+  "Simple reset css": {
+    "prefix": "css-reset",
+    "body": [
+      "html {",
+      "box-sizing: border-box;",
+      "}",
+      "*{",
+      "margin: 0;",
+      "padding: 0;",
+      "}",
+      "*,*:before,*:after {",
+      "box-sizing: border-box;",
+      "}",
+      "input,",
+      "textarea,",
+      "select,",
+      "button{",
+      "outline: none;",
+      "}",
+      "input{",
+      "line-height: normal;",
+      "}",
+      "label,",
+      "button{",
+      "cursor: pointer;",
+      "}",
+      "a {",
+      "text-decoration: none;",
+      "}",
+      "img {",
+      "display: block;",
+      "max-width: 100%;",
+      "}"
+    ],
+    "description": "Simple reset css"
+  },
+  "Simple flex layout": {
+    "prefix": "flex-layout",
+    "body": [
+      "display: flex;",
+      "flex-wrap: wrap;",
+      "margin-left: $1;",
+      "& > * {",
+      "  width: calc($2 - $3); ",
+      "  margin-left: $3;",
+      "}"
+    ],
+    "description": "Simple flex layout"
+  },
+  "Simple grid layout": {
+    "prefix": "grid-layout",
+    "body": [
+      "display: grid;",
+      "grid-template-columns: repeat($1, 1fr);",
+      "grid-gap: $2;"
+    ],
+    "description": "Simple grid layout"
+  },
+  "Change autofill input background": {
+    "prefix": "input-autofill",
+    "body": [
+      "&:-webkit-autofill,",
+      "&:-webkit-autofill:hover, ",
+      "&:-webkit-autofill:focus, ",
+      "&:-webkit-autofill:active{",
+      "  box-shadow: 0 0 0 30px $1 inset;",
+      "  -webkit-text-fill-color: $2;",
+      "}"
+    ],
+    "description": "Change autofill input background"
+  },
+  "CSS for margin auto": {
+    "prefix": "box-auto",
+    "body": ["display: block;margin: 0 auto;"],
+    "description": "CSS for margin auto"
+  },
+  "Show element": {
+    "prefix": "css-show",
+    "body": ["opacity: 1;", "visibility: visible;"],
+    "description": "Show element"
+  },
+  "Hide element": {
+    "prefix": "css-hide",
+    "body": [
+      "opacity: 0;",
+      "visibility: hidden;",
+      "transition: all 0.2s ease;"
+    ],
+    "description": "Hide element"
+  },
+  "Absolute dropdown": {
+    "prefix": "abs-dropdown",
+    "body": [
+      "position: absolute;",
+      "top: 100%;",
+      "left: 0;",
+      "width: 100%;",
+      "z-index: 1000;"
+    ],
+    "description": "Absolute dropdown"
+  },
+  "Transition all": {
+    "prefix": "transition-all",
+    "body": ["transition: all 0.2s linear;"],
+    "description": "Transition all"
+  },
+  "Position absolute full": {
+    "prefix": "abs-full",
+    "body": [
+      "position: absolute;",
+      "top: 0;",
+      "left: 0;",
+      "width: 100%;",
+      "height: 100%;",
+      "z-index: -1;"
+    ],
+    "description": "Position absolute full"
+  },
+  "Background opacity": {
+    "prefix": "bg-opacity",
+    "body": [
+      "color: $1;",
+      "&:after {",
+      "  content: \"\";",
+      "  position: absolute;",
+      "  top: 0;",
+      "  left: 0;",
+      "  width: 100%;",
+      "  height: 100%;",
+      "  border-radius: inherit;",
+      "  background-color: currentColor;",
+      "  opacity: ${2: 0.25};",
+      "}"
+    ],
+    "description": "Background opacity"
+  },
+  "CSS after": {
+    "prefix": "after",
+    "body": [":after{", "content:\"\";", "}"],
+    "description": "CSS after"
+  },
+  "CSS before": {
+    "prefix": "before",
+    "body": [":before{", "content:\"\";", "}"],
+    "description": "CSS before"
+  },
+  "Sizing radius": {
+    "prefix": "boxed",
+    "body": [
+      "width: $1;",
+      "height: $1;",
+      "border-radius: $1;",
+      "overflow: hidden;"
+    ],
+    "description": "Sizing radius"
+  },
+  "Border radius": {
+    "prefix": "bdra",
+    "body": ["border-radius: $1;"],
+    "description": "Border radius"
+  },
+  "Position relative": {
+    "prefix": "posr",
+    "body": ["position: relative;"],
+    "description": "Position relative"
+  },
+  "Display none": {
+    "prefix": "dnone",
+    "body": ["display: none;"],
+    "description": "Display none"
+  },
+  "Display block": {
+    "prefix": "dblock",
+    "body": ["display: block;"],
+    "description": "Display block"
+  },
+  "Display inline block": {
+    "prefix": "diblock",
+    "body": ["display: inline-block;"],
+    "description": "Display inline block"
+  },
+  "CSS for border": {
+    "prefix": "border-style",
+    "body": ["border: $1;", "border-radius: $2;"],
+    "description": "CSS for border"
+  },
+  "CSS for border bottom": {
+    "prefix": "border-style-bottom",
+    "body": ["border-bottom: $1;", "padding-bottom: $2;", "margin-bottom: $2;"],
+    "description": "CSS for border bottom"
+  },
+  "Using css grid": {
+    "prefix": "use-grid",
+    "body": ["display: grid;", "grid-template-columns: $1;", "grid-gap: $3;"],
+    "description": "Using css grid"
+  },
+  "Border bottom after": {
+    "prefix": "border-after-bottom",
+    "body": [
+      "position: relative;",
+      "&:after{",
+      "content:\"\";",
+      "position: absolute;",
+      "bottom: 0;",
+      "left: 0;",
+      "width: ${1: 100%};",
+      "height: $2;",
+      "background-color: $3;",
+      "transform: ${4: none};",
+      "}"
+    ],
+    "description": "Border bottom after"
+  },
+  "Flexbox align center": {
+    "prefix": "fa-center",
+    "body": ["display: flex;", "align-items: center;"],
+    "description": "Flexbox align center"
+  },
+  "Button modified style": {
+    "prefix": "button-modified",
+    "body": ["color: $1;", "background-color: $2;", "border-color: $2;"],
+    "description": "Button modified style"
+  },
+  "Not first child": {
+    "prefix": "not-first-child",
+    "body": [":not(:first-child) {", "$1;", "}"],
+    "description": "Not first child"
   }
 }
