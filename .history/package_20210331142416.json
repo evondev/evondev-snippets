@@ -1,0 +1,20 @@
+{
+    "name": "evondev-snippets",
+    "displayName": "evondev snippets",
+    "description": "Useful CSS snippets",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.54.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "css",
+                "path": "./snippets/snippets.code-snippets"
+            }
+        ]
+    }
+}

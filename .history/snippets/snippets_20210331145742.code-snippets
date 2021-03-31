@@ -1,0 +1,138 @@
+{
+  "Center with flexbox": {
+    "prefix": "flex-center",
+    "body": [
+      "display: flex;",
+      "justify-content: center;",
+      "align-items: center;"
+    ],
+    "description": "Center with flexbox"
+  },
+  "Center with grid": {
+    "prefix": "grid-center",
+    "body": ["display: grid;", "place-items: center;"],
+    "description": "Center with grid"
+  },
+  "Absolute center both direction": {
+    "prefix": "abs-center",
+    "body": [
+      "position: absolute;",
+      "top: 50%;",
+      "left: 50%;",
+      "transform: translate(-50%,-50%)"
+    ],
+    "description": "Absolute center both direction"
+  },
+  "Position absolute center X direction": {
+    "prefix": "abs-centerx",
+    "body": [
+      "position: absolute;",
+      "left: 50%;",
+      "transform: translateX(-50%)"
+    ],
+    "description": "Position absolute center X direction"
+  },
+  "Position absolute center Y direction": {
+    "prefix": "abs-centery",
+    "body": ["position: absolute;", "top: 50%;", "transform: translateY(-50%)"],
+    "description": "Position absolute center Y direction"
+  },
+  "Flexbox center column": {
+    "prefix": "flex-centerc",
+    "body": [
+      "display:flex;",
+      "align-items:${1:center};",
+      "justify-content:center;",
+      "flex-direction:column;"
+    ],
+    "description": "Flexbox center column"
+  },
+  "Flexbox spacebetween": {
+    "prefix": "flex-between",
+    "body": [
+      "display:flex;",
+      "align-items:${1:center};",
+      "justify-content: space-between;"
+    ],
+    "description": "Flexbox spacebetween"
+  },
+  "Image in flex layout": {
+    "prefix": "flex-image",
+    "body": [
+      "width: $1;",
+      "height: $1;",
+      "flex-shrink: 0;",
+      "object-fit: cover;"
+    ],
+    "description": "Image in flex layout"
+  },
+  "Text truncation": {
+    "prefix": "text-overflow",
+    "body": [
+      "display:-webkit-box;",
+      "-webkit-line-clamp:${1:1};",
+      "-webkit-box-orient: vertical;",
+      "overflow: hidden;",
+      "text-overflow: ellipsis;",
+      "word-break: break-word;"
+    ],
+    "description": "Text truncation"
+  },
+  "Text truncation in one line": {
+    "prefix": "text-single",
+    "body": [
+      "white-space:nowrap;",
+      "max-width:${1: 100%};",
+      "overflow: hidden;",
+      "text-overflow: ellipsis;"
+    ],
+    "description": "Text truncation in one line"
+  },
+  "CSS square": {
+    "prefix": "square",
+    "body": ["width: $1;", "height: $1;"],
+    "description": "CSS square"
+  },
+  "CSS rectangle": {
+    "prefix": "rect",
+    "body": ["width: $1;", "height: $2;"],
+    "description": "CSS rectangle"
+  },
+  "CSS circle": {
+    "prefix": "circle",
+    "body": ["width: $1;", "height: $1;", "border-radius: 100rem;"],
+    "description": "CSS circle"
+  },
+  "CSS image cover": {
+    "prefix": "image-cover",
+    "body": ["width: 100%;", "height: 100%;", "object-fit: cover"],
+    "description": "CSS image cover"
+  },
+  "Media max width": {
+    "prefix": "@maw",
+    "body": ["@media screen and (max-width: $1){", "$2", "}"],
+    "description": "Media max width"
+  },
+  "Media min width": {
+    "prefix": "@miw",
+    "body": ["@media screen and (min-width: $1){", "$2", "}"],
+    "description": "Media min width"
+  },
+  "Responsive image by ratio": {
+    "prefix": "image-responsive",
+    "body": [
+      "height: 0;",
+      "position: relative;",
+      "padding-bottom: ${1: 56.25%};",
+      "& > * {",
+      " position: absolute;",
+      " top: 0;",
+      " left: 0;",
+      " width: 100%;",
+      " height: 100%;",
+      " object-fit: cover;",
+      "}"
+    ],
+    "description": "Responsive image by ratio"
+  }
+}

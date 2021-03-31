@@ -1,0 +1,69 @@
+{
+  "Center with flexbox": {
+    "prefix": "flex-center",
+    "body": [
+      "display: flex;",
+      "justify-content: center;",
+      "align-items: center;"
+    ],
+    "description": "Center with flexbox"
+  },
+  "Center with grid": {
+    "prefix": "grid-center",
+    "body": ["display: grid;", "place-items: center;"],
+    "description": "Center with grid"
+  },
+  "Absolute center both direction": {
+    "prefix": "abs-center",
+    "body": [
+      "position: absolute;",
+      "top: 50%;",
+      "left: 50%;",
+      "transform: translate(-50%,-50%)"
+    ],
+    "description": "Absolute center both direction"
+  },
+  "Position absolute center X direction": {
+    "prefix": "abs-centerx",
+    "body": [
+      "position: absolute;",
+      "left: 50%;",
+      "transform: translateX(-50%)"
+    ],
+    "description": "Position absolute center X direction"
+  },
+  "Position absolute center Y direction": {
+    "prefix": "abs-centery",
+    "body": ["position: absolute;", "top: 50%;", "transform: translateY(-50%)"],
+    "description": "Position absolute center Y direction"
+  },
+  "Flexbox center column": {
+    "prefix": "flex-centerc",
+    "body": [
+      "display:flex;",
+      "align-items:${1:center};",
+      "justify-content:center;",
+      "flex-direction:column;"
+    ],
+    "description": "Flexbox center column"
+  },
+  "Flexbox spacebetween": {
+    "prefix": "flex-between",
+    "body": [
+      "display:flex;",
+      "align-items:${1:center};",
+      "justify-content: space-between;"
+    ],
+    "description": "Flexbox spacebetween"
+  },
+  "Image in flex layout": {
+    "prefix": "flex-image",
+    "body": [
+      "width: $1;",
+      "height: $1;",
+      "flex-shrink: 0;",
+      "object-fit: cover;"
+    ],
+    "description": "Image in flex layout"
+  }
+}
