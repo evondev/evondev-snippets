@@ -52,3 +52,6 @@ Some snippets will warning in Vanilla CSS because some code I write base on SASS
 | `text-shadow`       | Create text shadow                                                                                                                        |
 | `shadow`            | Create shadow                                                                                                                             |
 | `@keyframes`        | Keyframes animation                                                                                                                       |
+| `scrollbar-style`   | Custom scrollbar style                                                                                                                    |
+| `abs-full-width`    | Position absolute full width                                                                                                              |
+| `abs-full-height`   | Position absolute full height                                                                                                             |
