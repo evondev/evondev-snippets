@@ -30,7 +30,7 @@ Some snippets will warning in Vanilla CSS because some code I write base on SASS
 | `input-spin-hide`   | Hide input spin with input[type="number"]                                                                                                 |
 | `input-placeholder` | Change input placeholder color                                                                                                            |
 | `image-responsive`  | Responsive image by ratio                                                                                                                 |
-| `image-cover`       | Image cover full                                                                                                                          |
+| `imgcover`          | Image cover full                                                                                                                          |
 | `scroll-snap`       | Apply css scroll snap useful when making simple slider with only css                                                                      |
 | `@max-w`            | Media query for max-width                                                                                                                 |
 | `@min-w`            | Media query for min-width                                                                                                                 |
@@ -55,3 +55,15 @@ Some snippets will warning in Vanilla CSS because some code I write base on SASS
 | `scrollbar-style`   | Custom scrollbar style                                                                                                                    |
 | `abs-full-width`    | Position absolute full width                                                                                                              |
 | `abs-full-height`   | Position absolute full height                                                                                                             |
+| `square`            | Create fast square                                                                                                                        |
+| `rect`              | Create fast rectangle                                                                                                                     |
+| `square-radius`     | Create fast square with radius                                                                                                            |
+| `circle`            | Create fast circle                                                                                                                        |
+| `wfull`             | Make width full 100%                                                                                                                      |
+| `hfull`             | Make height full 100%                                                                                                                     |
+| `sfull`             | Make width and height full 100%                                                                                                           |
+| `fabase`            | Flexbox align-items baseline                                                                                                              |
+| `faend`             | Flexbox align-items flex-end                                                                                                              |
+| `fastart`           | Flexbox align-items flex-start                                                                                                            |
+| `facenter`          | Flexbox align-items: center                                                                                                               |
+| `fjend`             | Flexbox justify-content flex-end                                                                                                          |

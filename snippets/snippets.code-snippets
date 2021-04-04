@@ -53,12 +53,17 @@
   },
   "Flexbox spacebetween": {
     "prefix": "fbetween",
+    "body": ["justify-content: space-between;"],
+    "description": "Flexbox spacebetween"
+  },
+  "Flexbox center spacebetween": {
+    "prefix": "facb",
     "body": [
       "display:flex;",
-      "align-items:${1:center};",
-      "justify-content: space-between;"
+      "justify-content: space-between;",
+      "align-items: center;"
     ],
-    "description": "Flexbox spacebetween"
+    "description": "Flexbox center spacebetween"
   },
   "Image in flex layout": {
     "prefix": "flex-image",
@@ -455,7 +460,7 @@
     "description": "Using css grid"
   },
   "Flexbox align center": {
-    "prefix": "fa-center",
+    "prefix": "facenter",
     "body": ["display: flex;", "align-items: center;"],
     "description": "Flexbox align center"
   },
