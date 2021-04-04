@@ -52,7 +52,7 @@
     "description": "Flexbox center column"
   },
   "Flexbox spacebetween": {
-    "prefix": "flex-between",
+    "prefix": "fbetween",
     "body": [
       "display:flex;",
       "align-items:${1:center};",
@@ -92,10 +92,20 @@
     ],
     "description": "Text truncation in one line"
   },
-  "CSS size": {
-    "prefix": "size",
+  "CSS rect": {
+    "prefix": "rect",
     "body": ["width: $1;", "height: $2;"],
-    "description": "CSS size"
+    "description": "CSS rect"
+  },
+  "CSS square": {
+    "prefix": "square",
+    "body": ["width: $1;", "height: $1;"],
+    "description": "CSS square"
+  },
+  "CSS square radius": {
+    "prefix": "square-radius",
+    "body": ["width: $1;", "height: $1;", "border-radius: $2;"],
+    "description": "CSS square radius"
   },
   "CSS circle": {
     "prefix": "circle",
@@ -103,7 +113,7 @@
     "description": "CSS circle"
   },
   "CSS image cover": {
-    "prefix": "image-cover",
+    "prefix": "imgcover",
     "body": ["width: 100%;", "height: 100%;", "object-fit: cover;"],
     "description": "CSS image cover"
   },
@@ -172,11 +182,9 @@
     "prefix": "text-style",
     "body": [
       "font-size: $1;",
-      "font-weight: $2;",
-      "color: $3;",
-      "line-height: ${4: inherit;}",
-      "font-family: ${5: inherit};",
-      "${6: margin};"
+      "color: $2;",
+      "font-weight: ${3: normal};",
+      "line-height: ${4: inherit;}"
     ],
     "description": "CSS for text"
   },
@@ -187,9 +195,9 @@
       "border: $2;",
       "border-radius: $3;",
       "background-color: $4;",
-      "width: ${5:auto};",
-      "display: ${6:block};",
-      "color: $7;"
+      "color: $5;",
+      "width: ${6:auto};",
+      "display: ${7:block};"
     ],
     "description": "CSS for input"
   },
@@ -218,7 +226,7 @@
       "left: 0;",
       "right: 0;",
       "bottom: 0;",
-      "z-index: ${1:999999};",
+      "z-index: 999999;",
       "background-color: rgba(0,0,0,0.25);"
     ],
     "description": "CSS Modal"
@@ -369,7 +377,7 @@
     "description": "Position absolute full"
   },
   "Background opacity": {
-    "prefix": "bg-opacity",
+    "prefix": "opacity-bg",
     "body": [
       "color: $1;",
       "&:after {",
@@ -563,5 +571,40 @@
       "}"
     ],
     "description": "Custom scrollbar"
+  },
+  "Flexbox align baseline": {
+    "prefix": "fabase",
+    "body": ["display: flex;", "align-items: baseline;"],
+    "description": "Flexbox align baseline"
+  },
+  "Flexbox align end": {
+    "prefix": "faend",
+    "body": ["display: flex;", "align-items: flex-end;"],
+    "description": "Flexbox align end"
+  },
+  "Flexbox align start": {
+    "prefix": "fastart",
+    "body": ["display: flex;", "align-items: flex-start;"],
+    "description": "Flexbox align start"
+  },
+  "Flexbox justify end": {
+    "prefix": "fjend",
+    "body": ["display: flex;", "justify-content: flex-end;"],
+    "description": "Flexbox justify end"
+  },
+  "Width full": {
+    "prefix": "wfull",
+    "body": ["width: 100%;"],
+    "description": "Width full"
+  },
+  "Height full": {
+    "prefix": "hfull",
+    "body": ["height: 100%;"],
+    "description": "Height full"
+  },
+  "Size full": {
+    "prefix": "sfull",
+    "body": ["height: 100%;", "width: 100%;"],
+    "description": "Size full"
   }
 }
