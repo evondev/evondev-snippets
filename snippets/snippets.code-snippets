@@ -611,5 +611,95 @@
     "prefix": "sfull",
     "body": ["height: 100%;", "width: 100%;"],
     "description": "Size full"
+  },
+  "Overlay hidden": {
+    "prefix": "ohidden",
+    "body": ["overflow: hidden;"],
+    "description": "Overlay hidden"
+  },
+  "Overlay x hidden": {
+    "prefix": "xhidden",
+    "body": ["overflow-x: hidden;"],
+    "description": "Overlay x hidden"
+  },
+  "Overlay y hidden": {
+    "prefix": "yhidden",
+    "body": ["overflow-y: hidden;"],
+    "description": "Overlay y hidden"
+  },
+  "Overlay x auto": {
+    "prefix": "xauto",
+    "body": ["overflow-x: auto;"],
+    "description": "Overlay x auto"
+  },
+  "Overlay y auto": {
+    "prefix": "yauto",
+    "body": ["overflow-y: auto;"],
+    "description": "Overlay y auto"
+  },
+  "Text uppercase": {
+    "prefix": "upper",
+    "body": ["text-transform: uppercase;"],
+    "description": "Text uppercase"
+  },
+  "Text capitalize": {
+    "prefix": "capitalize",
+    "body": ["text-transform: capitalize;"],
+    "description": "Text capitalize"
+  },
+  "Text lowercase": {
+    "prefix": "lower",
+    "body": ["text-transform: lowercase;"],
+    "description": "Text lowercase"
+  },
+  "Font weight bold": {
+    "prefix": "bold",
+    "body": ["font-weight: bold;"],
+    "description": "Font weight bold"
+  },
+  "Font weight 300": {
+    "prefix": "300",
+    "body": ["font-weight: 300;"],
+    "description": "Font weight 300"
+  },
+  "Font weight 400": {
+    "prefix": "400",
+    "body": ["font-weight: 400;"],
+    "description": "Font weight 400"
+  },
+  "Font weight 500": {
+    "prefix": "500",
+    "body": ["font-weight: 500;"],
+    "description": "Font weight 500"
+  },
+  "Font weight 600": {
+    "prefix": "600",
+    "body": ["font-weight: 600;"],
+    "description": "Font weight 600"
+  },
+  "Font weight 700": {
+    "prefix": "700",
+    "body": ["font-weight: 700;"],
+    "description": "Font weight 700"
+  },
+  "Font weight 800": {
+    "prefix": "800",
+    "body": ["font-weight: 800;"],
+    "description": "Font weight 800"
+  },
+  "Font weight 900": {
+    "prefix": "900",
+    "body": ["font-weight: 900;"],
+    "description": "Font weight 900"
+  },
+  "Font style itatlic": {
+    "prefix": "italic",
+    "body": ["font-style: italic;"],
+    "description": "Font style itatlic"
+  },
+  "Using class selector": {
+    "prefix": "cl",
+    "body": [".$1{", "$0", "}"],
+    "description": "Using class selector"
   }
 }
