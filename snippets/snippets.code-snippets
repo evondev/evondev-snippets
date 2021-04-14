@@ -4,13 +4,13 @@
     "body": [
       "display: flex;",
       "justify-content: center;",
-      "align-items: center;"
+      "align-items: center;$0"
     ],
     "description": "Center with flexbox"
   },
   "Center with grid": {
     "prefix": "grid-center",
-    "body": ["display: grid;", "place-items: center;"],
+    "body": ["display: grid;", "place-items: center;$0"],
     "description": "Center with grid"
   },
   "Absolute center both direction": {
@@ -19,7 +19,7 @@
       "position: absolute;",
       "top: 50%;",
       "left: 50%;",
-      "transform: translate(-50%,-50%);"
+      "transform: translate(-50%,-50%);$0"
     ],
     "description": "Absolute center both direction"
   },
@@ -28,7 +28,7 @@
     "body": [
       "position: absolute;",
       "left: 50%;",
-      "transform: translateX(-50%);"
+      "transform: translateX(-50%);$0"
     ],
     "description": "Position absolute center X direction"
   },
@@ -37,7 +37,7 @@
     "body": [
       "position: absolute;",
       "top: 50%;",
-      "transform: translateY(-50%);"
+      "transform: translateY(-50%);$0"
     ],
     "description": "Position absolute center Y direction"
   },
@@ -47,13 +47,13 @@
       "display:flex;",
       "align-items:center;",
       "justify-content:center;",
-      "flex-direction:column;"
+      "flex-direction:column;$0"
     ],
     "description": "Flexbox center column"
   },
   "Flexbox spacebetween": {
     "prefix": "fbetween",
-    "body": ["justify-content: space-between;"],
+    "body": ["justify-content: space-between;$0"],
     "description": "Flexbox spacebetween"
   },
   "Flexbox center spacebetween": {
@@ -61,7 +61,7 @@
     "body": [
       "display:flex;",
       "justify-content: space-between;",
-      "align-items: center;"
+      "align-items: center;$0"
     ],
     "description": "Flexbox center spacebetween"
   },
@@ -71,7 +71,7 @@
       "width: $1;",
       "height: $2;",
       "flex-shrink: 0;",
-      "object-fit: cover;"
+      "object-fit: cover;$0"
     ],
     "description": "Image in flex layout"
   },
@@ -83,7 +83,7 @@
       "-webkit-box-orient: vertical;",
       "overflow: hidden;",
       "text-overflow: ellipsis;",
-      "word-break: break-word;"
+      "word-break: break-word;$0"
     ],
     "description": "Text truncation"
   },
@@ -93,7 +93,7 @@
       "white-space:nowrap;",
       "max-width:${1: 100%};",
       "overflow: hidden;",
-      "text-overflow: ellipsis;"
+      "text-overflow: ellipsis;$0"
     ],
     "description": "Text truncation in one line"
   },
@@ -137,7 +137,7 @@
     "body": [
       "height: 0;",
       "position: relative;",
-      "padding-bottom: ${1: 56.25%};",
+      "padding-bottom: ${1: 56.25%};$0",
       "& > * {",
       " position: absolute;",
       " top: 0;",
@@ -302,12 +302,14 @@
   "Simple flex layout": {
     "prefix": "flex-layout",
     "body": [
+      ".${1:your-class}{",
       "display: flex;",
       "flex-wrap: wrap;",
-      "margin-left: $1;",
-      "& > * {",
-      "  width: calc($2 - $3); ",
-      "  margin-left: $3;",
+      "margin-left: -$3px;",
+      "}",
+      ".${1:your-class} > * {",
+      "margin-left: $3px;",
+      "width: calc($2 - $3px);",
       "}"
     ],
     "description": "Simple flex layout"
@@ -324,12 +326,12 @@
   "Change autofill input background": {
     "prefix": "input-autofill",
     "body": [
-      "&:-webkit-autofill,",
-      "&:-webkit-autofill:hover, ",
-      "&:-webkit-autofill:focus, ",
-      "&:-webkit-autofill:active{",
-      "  box-shadow: 0 0 0 30px $1 inset;",
-      "  -webkit-text-fill-color: $2;",
+      "${1:&}:-webkit-autofill,",
+      "${1:&}:-webkit-autofill:hover, ",
+      "${1:&}:-webkit-autofill:focus, ",
+      "${1:&}:-webkit-autofill:active{",
+      "  box-shadow: 0 0 0 30px $2 inset;",
+      "  -webkit-text-fill-color: $3;",
       "}"
     ],
     "description": "Change autofill input background"
@@ -471,7 +473,7 @@
   },
   "Not first child": {
     "prefix": "not-first-child",
-    "body": [":not(:first-child) {", "$1;", "}"],
+    "body": [":not(:first-child) {", "$0;", "}"],
     "description": "Not first child"
   },
   "Background linear gradient": {
@@ -741,5 +743,25 @@
     "prefix": "@1279",
     "body": ["@media screen and (max-width: 1279px) {", "$0", "}", ""],
     "description": "Below small pc"
+  },
+  "Get image random from Unsplash": {
+    "prefix": "img-random",
+    "body": ["https://source.unsplash.com/random"],
+    "description": "Get image random from Unsplash"
+  },
+  "Odd child ": {
+    "prefix": "odd",
+    "body": [":nth-child(odd){", "$0", "}"],
+    "description": "Odd child "
+  },
+  "Even child ": {
+    "prefix": "even",
+    "body": [":nth-child(even){", "$0", "}"],
+    "description": "Even child "
+  },
+  "Not child ": {
+    "prefix": "not",
+    "body": [":not($1){", "$0", "}"],
+    "description": "Not child "
   }
 }
