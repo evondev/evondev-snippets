@@ -41,7 +41,6 @@ Some snippets will warning in Vanilla CSS because some code I write base on SASS
 | `700`               | `font-weight: 700`                                                                                   |
 | `800`               | `font-weight: 800`                                                                                   |
 | `900`               | `font-weight: 900`                                                                                   |
-| `cl`                | Create class selector fast                                                                           |
 | `@1079`             | Media screen and max width 1079px                                                                    |
 | `@1023`             | Media screen and max width 1023px                                                                    |
 | `@767`              | Media screen and max width 767px                                                                     |

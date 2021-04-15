@@ -699,11 +699,6 @@
     "body": ["font-style: italic;"],
     "description": "Font style itatlic"
   },
-  "Using class selector": {
-    "prefix": "cl",
-    "body": [".$1{", "$0", "}"],
-    "description": "Using class selector"
-  },
   "Under pc": {
     "prefix": "@1023",
     "body": ["@media screen and (max-width: 1023px) {", "$0", "}", ""],
@@ -743,11 +738,6 @@
     "prefix": "@1279",
     "body": ["@media screen and (max-width: 1279px) {", "$0", "}", ""],
     "description": "Below small pc"
-  },
-  "Get image random from Unsplash": {
-    "prefix": "img-random",
-    "body": ["https://source.unsplash.com/random"],
-    "description": "Get image random from Unsplash"
   },
   "Odd child ": {
     "prefix": "odd",

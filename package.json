@@ -3,7 +3,7 @@
   "displayName": "Evondev snippets",
   "description": "Useful CSS snippets for developer",
   "publisher": "evondev",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "engines": {
     "vscode": "^1.51.0"
   },
@@ -34,24 +34,12 @@
         "path": "./snippets/snippets.code-snippets"
       },
       {
-        "language": "javascriptreact",
-        "path": "./snippets/snippets.code-snippets"
-      },
-      {
-        "language": "typescript",
-        "path": "./snippets/snippets.code-snippets"
-      },
-      {
-        "language": "typescriptreact",
-        "path": "./snippets/snippets.code-snippets"
-      },
-      {
         "language": "html",
-        "path": "./snippets/snippets.code-snippets"
+        "path": "./snippets/html.code-snippets"
       },
       {
         "language": "jsx",
-        "path": "./snippets/snippets.code-snippets"
+        "path": "./snippets/html.code-snippets"
       }
     ]
   }
