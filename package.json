@@ -3,7 +3,7 @@
   "displayName": "Evondev snippets",
   "description": "Useful CSS snippets for developer",
   "publisher": "evondev",
-  "version": "0.0.9",
+  "version": "0.1.0",
   "engines": {
     "vscode": "^1.51.0"
   },
@@ -38,7 +38,11 @@
         "path": "./snippets/html.code-snippets"
       },
       {
-        "language": "jsx",
+        "language": "javascriptreact",
+        "path": "./snippets/html.code-snippets"
+      },
+      {
+        "language": "typescriptreact",
         "path": "./snippets/html.code-snippets"
       }
     ]

@@ -6,7 +6,25 @@ Useful CSS snippets that will help you save a lot of time when coding
 
 Some snippets will warning in Vanilla CSS because some code I write base on SASS way
 
-## Table of snippets
+## Update useful HTML snippets for common UI Component
+
+- You can start using with prefix `ui-` and autocompletion will show for you
+- ui-flex-layout1
+- ui-flex-layout2
+- ui-flex-layout3
+- ui-flex-layout4
+- ui-dropdown
+- ui-custom-checkbox
+- ui-custom-radio
+- ui-search1
+- ui-search2
+- ui-button-icon
+- ui-tab1
+- ui-icon-opacity
+- ui-switch-toggle
+- Enjoy new snippets =))
+
+## Table of CSS snippets
 
 | Prefix              | Code                                                                                                 |
 | ------------------- | ---------------------------------------------------------------------------------------------------- |
@@ -47,7 +65,7 @@ Some snippets will warning in Vanilla CSS because some code I write base on SASS
 | `@768`              | Media screen and min width 768px                                                                     |
 | `@1024`             | Media screen and min width 1024px                                                                    |
 | `@1280`             | Media screen and min width 1280px                                                                    |
-| `img-random`        | Get random image from url of Unsplash, useful when code with `src` of img tag or `url` of background |
+| `random-src`        | Get random image from url of Unsplash, useful when code with `src` of img tag or `url` of background |
 | `css-reset`         | Some useful css reset code when you start coding css                                                 |
 | `scroll-hide`       | Just hide scrollbar                                                                                  |
 | `input-spin-hide`   | Hide input spin with input[type="number"]                                                            |
