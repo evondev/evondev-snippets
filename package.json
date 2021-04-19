@@ -3,7 +3,7 @@
   "displayName": "Evondev snippets",
   "description": "Useful CSS snippets for developer",
   "publisher": "evondev",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "engines": {
     "vscode": "^1.51.0"
   },

@@ -22,6 +22,10 @@ Some snippets will warning in Vanilla CSS because some code I write base on SASS
 - ui-tab1
 - ui-icon-opacity
 - ui-switch-toggle
+- ui-modal
+- ui-notification
+- ui-mega-menu
+- ui-menu-dropdown
 - Enjoy new snippets =))
 
 ## Table of CSS snippets
