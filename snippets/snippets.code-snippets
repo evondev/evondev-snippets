@@ -51,6 +51,11 @@
     ],
     "description": "Flexbox center column"
   },
+  "Flexbox column": {
+    "prefix": "flex-col",
+    "body": ["display: flex;", "flex-direction: column;", "$0"],
+    "description": "Flexbox column"
+  },
   "Flexbox spacebetween": {
     "prefix": "fbetween",
     "body": ["justify-content: space-between;$0"],
@@ -76,7 +81,7 @@
     "description": "Image in flex layout"
   },
   "Text truncation": {
-    "prefix": "text-overflow",
+    "prefix": "text-truncate",
     "body": [
       "display:-webkit-box;",
       "-webkit-line-clamp:${1:1};",
@@ -118,7 +123,7 @@
     "description": "CSS circle"
   },
   "CSS image cover": {
-    "prefix": "imgcover",
+    "prefix": "img-cover",
     "body": ["width: 100%;", "height: 100%;", "object-fit: cover;"],
     "description": "CSS image cover"
   },
@@ -133,18 +138,20 @@
     "description": "Media min width"
   },
   "Responsive image by ratio": {
-    "prefix": "image-responsive",
+    "prefix": "img-responsive",
     "body": [
+      ".${1:yourclass} {",
       "height: 0;",
       "position: relative;",
-      "padding-bottom: ${1: 56.25%};$0",
-      "& > * {",
-      " position: absolute;",
-      " top: 0;",
-      " left: 0;",
-      " width: 100%;",
-      " height: 100%;",
-      " object-fit: cover;",
+      "padding-bottom: ${2:56.25%};$0",
+      "}",
+      ".${1:yourclass} > * {",
+      "position: absolute;",
+      "top: 0;",
+      "left: 0;",
+      "width: 100%;",
+      "height: 100%;",
+      "object-fit: cover;",
       "}"
     ],
     "description": "Responsive image by ratio"
@@ -175,9 +182,11 @@
   "Hide scrollbar": {
     "prefix": "scroll-hide",
     "body": [
+      ".${1:yourclass} {",
       "-ms-overflow-style: none;",
       "scrollbar-width: none;",
-      "&::-webkit-scrollbar {",
+      "}",
+      ".${1:yourclass}::-webkit-scrollbar {",
       " display: none;",
       "}"
     ],
@@ -236,9 +245,10 @@
     ],
     "description": "CSS Modal"
   },
-  "CSS mobile scroll": {
-    "prefix": "scroll-snap",
+  "CSS Mobile scroll snap": {
+    "prefix": "grid-scroll-snap",
     "body": [
+      ".${1:yourclass} {",
       "display: grid;",
       "justify-content: flex-start;",
       "grid-auto-columns: 90%;",
@@ -253,15 +263,16 @@
       "-webkit-overflow-scrolling: touch;",
       "scroll-padding: 1rem;",
       "grid-template-columns: unset;",
-      "&::-webkit-scrollbar {",
+      "}",
+      ".${1:yourclass}::-webkit-scrollbar {",
       "  display: none;",
       "  width: 0;",
       "}",
-      "& > *{",
+      ".${1:yourclass} > *{",
       "  scroll-snap-align: start;",
       "}"
     ],
-    "description": "CSS mobile scroll"
+    "description": "CSS Mobile scroll snap"
   },
   "Simple reset css": {
     "prefix": "css-reset",
@@ -324,7 +335,7 @@
     "description": "Simple grid layout"
   },
   "Change autofill input background": {
-    "prefix": "input-autofill",
+    "prefix": "input-autofill-bg",
     "body": [
       "${1:&}:-webkit-autofill,",
       "${1:&}:-webkit-autofill:hover, ",
@@ -337,7 +348,7 @@
     "description": "Change autofill input background"
   },
   "CSS for margin auto": {
-    "prefix": "box-auto",
+    "prefix": "center-block",
     "body": ["display: block;margin: 0 auto;"],
     "description": "CSS for margin auto"
   },
@@ -351,7 +362,7 @@
     "body": [
       "opacity: 0;",
       "visibility: hidden;",
-      "transition: all 0.2s ease;"
+      "transition: ${1:all 0.2s ease};$0"
     ],
     "description": "Hide element"
   },
@@ -362,12 +373,12 @@
       "top: 100%;",
       "left: 0;",
       "width: 100%;",
-      "z-index: 1000;"
+      "z-index: ${1:10};$0"
     ],
     "description": "Absolute dropdown"
   },
   "Transition all": {
-    "prefix": "transition-all",
+    "prefix": "tsall",
     "body": ["transition: all 0.2s linear;"],
     "description": "Transition all"
   },
@@ -383,34 +394,6 @@
     ],
     "description": "Position absolute full"
   },
-  "Background opacity": {
-    "prefix": "opacity-bg",
-    "body": [
-      "color: $1;",
-      "&:after {",
-      "  content: \"\";",
-      "  position: absolute;",
-      "  top: 0;",
-      "  left: 0;",
-      "  width: 100%;",
-      "  height: 100%;",
-      "  border-radius: inherit;",
-      "  background-color: currentColor;",
-      "  opacity: ${2: 0.25};",
-      "}"
-    ],
-    "description": "Background opacity"
-  },
-  "CSS after": {
-    "prefix": "after",
-    "body": [":after{", "content:\"\";", "}"],
-    "description": "CSS after"
-  },
-  "CSS before": {
-    "prefix": "before",
-    "body": [":before{", "content:\"\";", "}"],
-    "description": "CSS before"
-  },
   "Sizing radius": {
     "prefix": "boxed",
     "body": [
@@ -420,11 +403,6 @@
       "overflow: hidden;"
     ],
     "description": "Sizing radius"
-  },
-  "Border radius": {
-    "prefix": "bdra",
-    "body": ["border-radius: $1;"],
-    "description": "Border radius"
   },
   "Position relative": {
     "prefix": "posr",
@@ -446,11 +424,6 @@
     "body": ["display: inline-block;"],
     "description": "Display inline block"
   },
-  "CSS for border": {
-    "prefix": "border-style",
-    "body": ["border: $1;", "border-radius: $2;"],
-    "description": "CSS for border"
-  },
   "CSS for border bottom": {
     "prefix": "border-style-bottom",
     "body": ["border-bottom: $1;", "padding-bottom: $2;", "margin-bottom: $2;"],
@@ -466,18 +439,8 @@
     "body": ["display: flex;", "align-items: center;"],
     "description": "Flexbox align center"
   },
-  "Button modified style": {
-    "prefix": "button-modified",
-    "body": ["color: $1;", "background-color: $2;", "border-color: $2;"],
-    "description": "Button modified style"
-  },
-  "Not first child": {
-    "prefix": "not-first-child",
-    "body": [":not(:first-child) {", "$0;", "}"],
-    "description": "Not first child"
-  },
   "Background linear gradient": {
-    "prefix": "bg-linear",
+    "prefix": "linear-gradient",
     "body": ["background-image: linear-gradient(${1: to right}, $2, $3);"],
     "description": "Background linear gradient"
   },
@@ -485,27 +448,6 @@
     "prefix": "@keyframes",
     "body": ["@keyframes $1{", "$2", "}"],
     "description": "Keyframes "
-  },
-  "Boxshadow base on background": {
-    "prefix": "shadow-bg",
-    "body": [
-      "position: relative;",
-      "&:after {",
-      "  content: \"\";",
-      "  width: 100%;",
-      "  height: 100%;",
-      "  position: absolute;",
-      "  left: 0;",
-      "  top: 0;",
-      "  border-radius: inherit;",
-      "  transform: translate($1, $1);",
-      "  background-color: inherit;",
-      "  background-image: inherit;",
-      "  filter: brightness(${2: 75%});",
-      "  z-index: -1;",
-      "}"
-    ],
-    "description": "Boxshadow base on background"
   },
   "CSS supports": {
     "prefix": "@support",
@@ -659,41 +601,6 @@
     "body": ["font-weight: bold;"],
     "description": "Font weight bold"
   },
-  "Font weight 300": {
-    "prefix": "300",
-    "body": ["font-weight: 300;"],
-    "description": "Font weight 300"
-  },
-  "Font weight 400": {
-    "prefix": "400",
-    "body": ["font-weight: 400;"],
-    "description": "Font weight 400"
-  },
-  "Font weight 500": {
-    "prefix": "500",
-    "body": ["font-weight: 500;"],
-    "description": "Font weight 500"
-  },
-  "Font weight 600": {
-    "prefix": "600",
-    "body": ["font-weight: 600;"],
-    "description": "Font weight 600"
-  },
-  "Font weight 700": {
-    "prefix": "700",
-    "body": ["font-weight: 700;"],
-    "description": "Font weight 700"
-  },
-  "Font weight 800": {
-    "prefix": "800",
-    "body": ["font-weight: 800;"],
-    "description": "Font weight 800"
-  },
-  "Font weight 900": {
-    "prefix": "900",
-    "body": ["font-weight: 900;"],
-    "description": "Font weight 900"
-  },
   "Font style itatlic": {
     "prefix": "italic",
     "body": ["font-style: italic;"],
@@ -739,19 +646,14 @@
     "body": ["@media screen and (max-width: 1279px) {", "$0", "}", ""],
     "description": "Below small pc"
   },
-  "Odd child ": {
-    "prefix": "odd",
-    "body": [":nth-child(odd){", "$0", "}"],
-    "description": "Odd child "
-  },
-  "Even child ": {
-    "prefix": "even",
-    "body": [":nth-child(even){", "$0", "}"],
-    "description": "Even child "
-  },
-  "Not child ": {
-    "prefix": "not",
-    "body": [":not($1){", "$0", "}"],
-    "description": "Not child "
+  "Center with inline block": {
+    "prefix": "center-inline",
+    "body": [
+      "display: inline-block;",
+      "position: relative;",
+      "left: 50%;",
+      "transform: translateX(-50%);$0"
+    ],
+    "description": "Center with inline block"
   }
 }
