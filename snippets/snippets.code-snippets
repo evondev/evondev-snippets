@@ -655,5 +655,45 @@
       "transform: translateX(-50%);$0"
     ],
     "description": "Center with inline block"
+  },
+  "CSS fast shadow 1": {
+    "prefix": "get-shadow1",
+    "body": ["box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;"],
+    "description": "CSS fast shadow 1"
+  },
+  "CSS fast shadow 2": {
+    "prefix": "get-shadow2",
+    "body": ["box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;"],
+    "description": "CSS fast shadow 2"
+  },
+  "CSS fast shadow 3": {
+    "prefix": "get-shadow3",
+    "body": ["box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;"],
+    "description": "CSS fast shadow 3"
+  },
+  "CSS fast shadow 4": {
+    "prefix": "get-shadow4",
+    "body": ["box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;"],
+    "description": "CSS fast shadow 4"
+  },
+  "CSS fast shadow 5": {
+    "prefix": "get-shadow5",
+    "body": ["box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;"],
+    "description": "CSS fast shadow 5"
+  },
+  "Flexbox column space between": {
+    "prefix": "fcol-between",
+    "body": [
+      "display: flex;",
+      "flex-direction: column;",
+      "justify-content: space-between;",
+      "flex: 1;$0"
+    ],
+    "description": "Flexbox column space between"
+  },
+  "Spacing combinator class": {
+    "prefix": "plus-spacing",
+    "body": [".${1:class} + .${1:class} {", "  margin-left: $0;", "}"],
+    "description": "Spacing combinator class"
   }
 }
