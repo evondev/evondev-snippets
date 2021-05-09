@@ -6,9 +6,21 @@ Useful CSS snippets that will help you save a lot of time when coding
 
 Some snippets will warning in Vanilla CSS because some code I write base on SASS way
 
-## Update useful HTML snippets for common UI Component
+## Useful HTML layout
 
-- You can start using with prefix `ui-` and autocompletion will show for you
+These are useful snippets just show HTML layout for some most use UI when coding. If you want to know how to CSS please check the next section (Useful HTML CSS)
+
+- html-menu
+- html-dropdown
+- html-modal
+- html-tab
+- html-accordion
+- html-linkwrap-img
+
+## Useful HTML CSS UI Component
+
+These are useful UI components with HTML and CSS for reference purposes
+
 - ui-flex-layout1
 - ui-flex-layout2
 - ui-flex-layout3
@@ -26,7 +38,6 @@ Some snippets will warning in Vanilla CSS because some code I write base on SASS
 - ui-notification
 - ui-mega-menu
 - ui-menu-dropdown
-- Enjoy new snippets =))
 
 ## Table of CSS snippets
 

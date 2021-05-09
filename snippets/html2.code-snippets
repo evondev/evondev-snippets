@@ -1,0 +1,78 @@
+{
+  "UI Component for menu": {
+    "prefix": "html-menu",
+    "body": [
+      "<ul class=\"${1:menu}\">",
+      "  <li class=\"${1:menu}-item\">",
+      "    <a href=\"${2:#}\" class=\"${1:menu}-link\">${0}</a>",
+      "  </li>",
+      "</ul>",
+      ""
+    ],
+    "description": "UI Component for menu"
+  },
+  "UI Component for accordion": {
+    "prefix": "html-accordion",
+    "body": [
+      "<div class=\"${0:accordion}\">",
+      "  <div class=\"${0:accordion}-header\">Your header</div>",
+      "  <div class=\"${0:accordion}-content\">Your content</div>",
+      "</div>",
+      ""
+    ],
+    "description": "UI Component for accordion"
+  },
+  "UI Component for tab": {
+    "prefix": "html-tab",
+    "body": [
+      "<div class=\"${0:tab}\">",
+      "  <div class=\"${0:tab}-header\">",
+      "    <div class=\"${0:tab}-item\">title</div>",
+      "    <div class=\"${0:tab}-item\">title</div>",
+      "    <div class=\"${0:tab}-item\">title</div>",
+      "  </div>",
+      "  <div class=\"${0:tab}-content\">content</div>",
+      "</div>",
+      ""
+    ],
+    "description": "UI Component for tab"
+  },
+  "UI Component for dropdown": {
+    "prefix": "html-dropdown",
+    "body": [
+      "<div class=\"${0:dropdown}\">",
+      "  <div class=\"${0:dropdown}-select\">",
+      "    <span class=\"${0:dropdown}-value\">Value</span>",
+      "  </div>",
+      "  <div class=\"${0:dropdown}-list\">",
+      "    <div class=\"${0:dropdown}-item\">title</div>",
+      "    <div class=\"${0:dropdown}-item\">title</div>",
+      "    <div class=\"${0:dropdown}-item\">title</div>",
+      "  </div>",
+      "</div>"
+    ],
+    "description": "UI Component for dropdown"
+  },
+  "UI Component for modal": {
+    "prefix": "html-modal",
+    "body": [
+      "<div class=\"${0:modal}\">",
+      "  <div class=\"${0:modal}-container\">",
+      "    <div class=\"${0:modal}-close\">X</div>",
+      "    <div class=\"${0:modal}-content\">your content</div>",
+      "  </div>",
+      "</div>",
+      ""
+    ],
+    "description": "UI Component for modal"
+  },
+  "UI Component for link wrapped image": {
+    "prefix": "html-linkwrap-img",
+    "body": [
+      "<a href=\"#\" class=\"${0:yourclass}\">",
+      "  <img src=\"${1}\" alt=\"\" class=\"${0:yourclass}-image\" />",
+      "</a>"
+    ],
+    "description": "UI Component for link wrapped image"
+  }
+}
