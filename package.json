@@ -1,9 +1,9 @@
 {
   "name": "evondev-snippets",
   "displayName": "Evondev snippets",
-  "description": "Useful CSS snippets for developer",
+  "description": "Useful CSS snippets for Frontend Developer",
   "publisher": "evondev",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "engines": {
     "vscode": "^1.51.0"
   },
