@@ -1,6 +1,6 @@
 # evondev-snippets README
 
-Useful CSS snippets that will help you save a lot of time when coding
+Useful HTML and CSS snippets that will help you save a lot of time when coding.
 
 ## Notice
 
