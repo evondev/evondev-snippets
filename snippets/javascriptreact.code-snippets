@@ -1,6 +1,6 @@
 {
   "Get image random from Unsplash": {
-    "prefix": "random-img",
+    "prefix": "random-image",
     "body": ["https://source.unsplash.com/random"],
     "description": "Get image random from Unsplash"
   }

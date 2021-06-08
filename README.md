@@ -89,7 +89,7 @@ These are useful UI components with HTML and CSS for reference purposes
 | `@768`              | Media screen and min width 768px                                                                                 |
 | `@1024`             | Media screen and min width 1024px                                                                                |
 | `@1280`             | Media screen and min width 1280px                                                                                |
-| `random-img`        | Get random image from url of Unsplash, useful when code with `src` of img tag                                    |
+| `random-image`      | Get random image from url of Unsplash, useful when code with `src` of img tag                                    |
 | `css-reset`         | Some useful css reset code when you start coding css                                                             |
 | `scroll-hide`       | Just hide scrollbar                                                                                              |
 | `input-spin-hide`   | Hide input spin with input[type="number"]                                                                        |
