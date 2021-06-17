@@ -60,6 +60,7 @@ These are useful UI components with HTML and CSS for reference purposes
 | `abs-centerx`       | Center left with absolute                                                                                        |
 | `abs-centery`       | Center top with absolute                                                                                         |
 | `abs-full`          | Position absolute full base on parent                                                                            |
+| `fixed-full`        | Position fixed full                                                                                              |
 | `abs-top-left`      | Position absolute top left                                                                                       |
 | `abs-top-right`     | Position absolute top right                                                                                      |
 | `abs-bottom-left`   | Position absolute bottom left                                                                                    |
