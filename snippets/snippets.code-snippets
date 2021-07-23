@@ -705,5 +705,35 @@
     "prefix": "plus-spacing",
     "body": [".${1:class} + .${1:class} {", "  margin-left: $0;", "}"],
     "description": "Spacing combinator class"
+  },
+  "Quick color purple": {
+    "prefix": "c-purple",
+    "body": ["#6A5AF9;"],
+    "description": "Quick color purple"
+  },
+  "Quick color blue": {
+    "prefix": "c-blue",
+    "body": ["#3D6EF7;"],
+    "description": "Quick color blue"
+  },
+  "Quick color green": {
+    "prefix": "c-green",
+    "body": ["#20E3B2;"],
+    "description": "Quick color green"
+  },
+  "Quick color orange": {
+    "prefix": "c-orange",
+    "body": ["#FF6651;"],
+    "description": "Quick color orange"
+  },
+  "Quick color pink": {
+    "prefix": "c-pink",
+    "body": ["#F62682;"],
+    "description": "Quick color pink"
+  },
+  "Quick color gray": {
+    "prefix": "c-gray",
+    "body": ["#eee;"],
+    "description": "Quick color gray"
   }
 }
