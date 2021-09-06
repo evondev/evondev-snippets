@@ -1,8 +1,13 @@
-# evondev-snippets README
+# Introduction
 
 Useful HTML and CSS snippets that will help you save a lot of time when coding.
 
-## Notice
+# Donate to support me 🙏
+
+- Momo: 0937253577
+- Bank: ACB - 201607359 - TRAN ANH TUAN
+
+## Notice ⚠️
 
 Some snippets will warning in Vanilla CSS because some code I write base on SASS way
 
