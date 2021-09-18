@@ -2,11 +2,6 @@
 
 Useful HTML and CSS snippets that will help you save a lot of time when coding.
 
-# Donate to support me 🙏
-
-- Momo: 0937253577
-- Bank: ACB - 201607359 - TRAN ANH TUAN
-
 ## Notice ⚠️
 
 Some snippets will warning in Vanilla CSS because some code I write base on SASS way
@@ -84,8 +79,8 @@ These are useful UI components with HTML and CSS for reference purposes
 | `yhidden`           | Overflow y hidden                                                                                                |
 | `xauto`             | Overflow x auto                                                                                                  |
 | `yauto`             | Overflow y auto                                                                                                  |
-| `upper`             | Text transform to UPPERCASE                                                                                      |
-| `lower`             | Text transform to lowercase                                                                                      |
+| `uppercase`         | Text transform to UPPERCASE                                                                                      |
+| `lowercase`         | Text transform to lowercase                                                                                      |
 | `capitalize`        | Text transform to Capitalize                                                                                     |
 | `bold`              | Make text bold                                                                                                   |
 | `italic`            | Make text italic                                                                                                 |

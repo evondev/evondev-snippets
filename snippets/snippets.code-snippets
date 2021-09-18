@@ -415,7 +415,7 @@
     "description": "Sizing radius"
   },
   "Position relative": {
-    "prefix": "posr",
+    "prefix": "relative",
     "body": ["position: relative;"],
     "description": "Position relative"
   },
@@ -592,7 +592,7 @@
     "description": "Overlay y auto"
   },
   "Text uppercase": {
-    "prefix": "upper",
+    "prefix": "uppercase",
     "body": ["text-transform: uppercase;"],
     "description": "Text uppercase"
   },
@@ -602,14 +602,29 @@
     "description": "Text capitalize"
   },
   "Text lowercase": {
-    "prefix": "lower",
+    "prefix": "lowercase",
     "body": ["text-transform: lowercase;"],
     "description": "Text lowercase"
+  },
+  "Font weight medium": {
+    "prefix": "medium",
+    "body": ["font-weight: 600;"],
+    "description": "Font weight medium"
+  },
+  "Font weight semibold": {
+    "prefix": "semibold",
+    "body": ["font-weight: 600;"],
+    "description": "Font weight semibold"
   },
   "Font weight bold": {
     "prefix": "bold",
     "body": ["font-weight: bold;"],
     "description": "Font weight bold"
+  },
+  "Font weight bolder": {
+    "prefix": "bolder",
+    "body": ["font-weight: 800;"],
+    "description": "Font weight bolder"
   },
   "Font style itatlic": {
     "prefix": "italic",
@@ -707,33 +722,43 @@
     "description": "Spacing combinator class"
   },
   "Quick color purple": {
-    "prefix": "c-purple",
+    "prefix": "cpurple",
     "body": ["#6A5AF9;"],
     "description": "Quick color purple"
   },
   "Quick color blue": {
-    "prefix": "c-blue",
+    "prefix": "cblue",
     "body": ["#3D6EF7;"],
     "description": "Quick color blue"
   },
   "Quick color green": {
-    "prefix": "c-green",
+    "prefix": "cgreen",
     "body": ["#20E3B2;"],
     "description": "Quick color green"
   },
   "Quick color orange": {
-    "prefix": "c-orange",
+    "prefix": "corange",
     "body": ["#FF6651;"],
     "description": "Quick color orange"
   },
   "Quick color pink": {
-    "prefix": "c-pink",
+    "prefix": "cpink",
     "body": ["#F62682;"],
     "description": "Quick color pink"
   },
   "Quick color gray": {
-    "prefix": "c-gray",
+    "prefix": "cgray",
     "body": ["#eee;"],
     "description": "Quick color gray"
+  },
+  "Rounded full": {
+    "prefix": "rounded-full",
+    "body": ["border-radius: 100rem;"],
+    "description": "Rounded full"
+  },
+  "Translate": {
+    "prefix": "translate",
+    "body": ["transform: translate($1, $2);"],
+    "description": "Translate"
   }
 }
