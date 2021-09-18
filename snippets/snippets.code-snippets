@@ -419,6 +419,21 @@
     "body": ["position: relative;"],
     "description": "Position relative"
   },
+  "Position absolute": {
+    "prefix": "absolute",
+    "body": ["position: absolute;"],
+    "description": "Position absolute"
+  },
+  "Position fixed": {
+    "prefix": "fixed",
+    "body": ["position: fixed;"],
+    "description": "Position fixed"
+  },
+  "Position sticky": {
+    "prefix": "sticky",
+    "body": ["position: sticky;"],
+    "description": "Position sticky"
+  },
   "Display none": {
     "prefix": "dnone",
     "body": ["display: none;"],
@@ -756,9 +771,29 @@
     "body": ["border-radius: 100rem;"],
     "description": "Rounded full"
   },
-  "Translate": {
-    "prefix": "translate",
-    "body": ["transform: translate($1, $2);"],
-    "description": "Translate"
+  "Rounded small": {
+    "prefix": "rounded-sm",
+    "body": ["border-radius: 4px;"],
+    "description": "Rounded small"
+  },
+  "Rounded medium": {
+    "prefix": "rounded-md",
+    "body": ["border-radius: 8px;"],
+    "description": "Rounded medium"
+  },
+  "Rounded large": {
+    "prefix": "rounded-lg",
+    "body": ["border-radius: 12px;"],
+    "description": "Rounded large"
+  },
+  "Rounded xlarge": {
+    "prefix": "rounded-xl",
+    "body": ["border-radius: 20px;"],
+    "description": "Rounded xlarge"
+  },
+  "Rounded inherit": {
+    "prefix": "rounded-inherit",
+    "body": ["border-radius: inherit;"],
+    "description": "Rounded inherit"
   }
 }
