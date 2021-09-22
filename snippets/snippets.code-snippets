@@ -795,5 +795,145 @@
     "prefix": "rounded-inherit",
     "body": ["border-radius: inherit;"],
     "description": "Rounded inherit"
+  },
+  "Min width full": {
+    "prefix": "min-w-full",
+    "body": ["min-width: 100%"],
+    "description": "Min width full"
+  },
+  "Rgba": {
+    "prefix": "b-rgba",
+    "body": ["background-color: rgba($1, $2, $3, $4);"],
+    "description": "Rgba"
+  },
+  "CRgba": {
+    "prefix": "c-rgba",
+    "body": ["color: rgba($1, $2, $3, $4);"],
+    "description": "CRgba"
+  },
+  "Translate X 50": {
+    "prefix": "translatex50",
+    "body": ["transform: translateX(50%);"],
+    "description": "Translate X 50"
+  },
+  "Translate X -50": {
+    "prefix": "translatex-50",
+    "body": ["transform: translateX(-50%);"],
+    "description": "Translate X -50"
+  },
+  "Translate Y 50": {
+    "prefix": "translatey50",
+    "body": ["transform: translateY(50%);"],
+    "description": "Translate Y 50"
+  },
+  "Translate Y -50": {
+    "prefix": "translatey-50",
+    "body": ["transform: translateY(-50%);"],
+    "description": "Translate Y -50"
+  },
+  "Top full": {
+    "prefix": "top-full",
+    "body": ["top: 100%;"],
+    "description": "Top full"
+  },
+  "left full": {
+    "prefix": "left-full",
+    "body": ["left: 100%;"],
+    "description": "left full"
+  },
+  "right full": {
+    "prefix": "right-full",
+    "body": ["right: 100%;"],
+    "description": "right full"
+  },
+  "bottom full": {
+    "prefix": "bottom-full",
+    "body": ["bottom: 100%;"],
+    "description": "bottom full"
+  },
+  "top 50": {
+    "prefix": "top-half",
+    "body": ["top: 50%;"],
+    "description": "top 50"
+  },
+  "left 50": {
+    "prefix": "left-half",
+    "body": ["left: 50%;"],
+    "description": "left 50"
+  },
+  "Input caret": {
+    "prefix": "input-caret",
+    "body": ["caret-color: $1;"],
+    "description": "Input caret"
+  },
+  "Line height calc": {
+    "prefix": "leading-calc",
+    "body": ["line-height: calc($1 / $2);"],
+    "description": "Line height calc"
+  },
+  "Line height none": {
+    "prefix": "leading-none",
+    "body": ["line-height: 1;"],
+    "description": "Line height none"
+  },
+  "Line height tight": {
+    "prefix": "leading-tight",
+    "body": ["line-height: 1.25;"],
+    "description": "Line height tight"
+  },
+  "Line height normal": {
+    "prefix": "leading-normal",
+    "body": ["line-height: 1.5;"],
+    "description": "Line height normal"
+  },
+  "Line height space": {
+    "prefix": "leading-space",
+    "body": ["line-height: 1.75;"],
+    "description": "Line height space"
+  },
+  "Line height xspace": {
+    "prefix": "leading-xspace",
+    "body": ["line-height: 2;"],
+    "description": "Line height xspace"
+  },
+  "Text center": {
+    "prefix": "text-center",
+    "body": ["text-align: center;"],
+    "description": "Text center"
+  },
+  "Text right": {
+    "prefix": "text-right",
+    "body": ["text-align: right;"],
+    "description": "Text right"
+  },
+  "Text justify": {
+    "prefix": "text-justify",
+    "body": ["text-align: justify;"],
+    "description": "Text justify"
+  },
+  "Text left": {
+    "prefix": "text-left",
+    "body": ["text-align: left;"],
+    "description": "Text left"
+  },
+  "Cursor pointer": {
+    "prefix": "pointer",
+    "body": ["cursor: pointer;"],
+    "description": "Cursor pointer"
+  },
+  "Pointer events none": {
+    "prefix": "pointer-none",
+    "body": ["pointer-events: none;"],
+    "description": "Pointer events none"
+  },
+  "Outline none": {
+    "prefix": "outline-none",
+    "body": ["outline: none;"],
+    "description": "Outline none"
+  },
+  "Border none": {
+    "prefix": "border-none",
+    "body": ["border: none;"],
+    "description": "Border none"
   }
 }
