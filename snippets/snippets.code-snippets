@@ -766,6 +766,16 @@
     "body": ["#eee;"],
     "description": "Quick color gray"
   },
+  "Quick color white": {
+    "prefix": "cwhite",
+    "body": ["color: white;"],
+    "description": "Quick color white"
+  },
+  "Quick color black": {
+    "prefix": "cblack",
+    "body": ["color: black;"],
+    "description": "Quick color black"
+  },
   "Rounded full": {
     "prefix": "rounded-full",
     "body": ["border-radius: 100rem;"],
@@ -935,5 +945,40 @@
     "prefix": "border-none",
     "body": ["border: none;"],
     "description": "Border none"
+  },
+  "Flex shrink 0": {
+    "prefix": "shrink0",
+    "body": ["flex-shrink: 0;"],
+    "description": "Flex shrink 0"
+  },
+  "Margin x auto": {
+    "prefix": "mx-auto",
+    "body": ["margin-left: auto;", "margin-right: auto;"],
+    "description": "Margin x auto"
+  },
+  "PX 15": {
+    "prefix": "px-15",
+    "body": ["padding-left: 15px;", "padding-right: 15px;"],
+    "description": "PX 15"
+  },
+  "PX 20": {
+    "prefix": "px-20",
+    "body": ["padding-left: 20px;", "padding-right: 20px;"],
+    "description": "PX 20"
+  },
+  "Width max content": {
+    "prefix": "w-max",
+    "body": ["width: max-content;"],
+    "description": "Width max content"
+  },
+  "Width min content": {
+    "prefix": "w-min",
+    "body": ["width: min-content;"],
+    "description": "Width min content"
+  },
+  "Width fit content": {
+    "prefix": "w-fit",
+    "body": ["width: fit-content;"],
+    "description": "Width fit content"
   }
 }
