@@ -310,20 +310,24 @@
     ],
     "description": "Simple reset css"
   },
-  "Simple flex layout": {
+  "Flex layout": {
     "prefix": "flex-layout",
     "body": [
-      ".${1:your-class}{",
-      "display: flex;",
-      "flex-wrap: wrap;",
-      "margin-left: -$3px;",
+      ".your-class{",
+      "  --f-columns: 4;",
+      "  --f-gap: 20px;",
+      "  display: flex;",
+      "  flex-wrap: wrap;",
+      "  margin-left: calc(-1 * var(--f-gap));",
+      "  margin-bottom: calc(-1 * var(--f-gap));",
       "}",
-      ".${1:your-class} > * {",
-      "margin-left: $3px;",
-      "width: calc($2 - $3px);",
+      ".your-class > * {",
+      "  margin-left: var(--f-gap);",
+      "  margin-left: var(--f-gap);",
+      "  width: calc((100% / var(--f-columns) - var(--f-gap)));",
       "}"
     ],
-    "description": "Simple flex layout"
+    "description": "Flex layout"
   },
   "Simple grid layout": {
     "prefix": "grid-layout",
@@ -821,26 +825,6 @@
     "body": ["color: rgba($1, $2, $3, $4);"],
     "description": "CRgba"
   },
-  "Translate X 50": {
-    "prefix": "translatex50",
-    "body": ["transform: translateX(50%);"],
-    "description": "Translate X 50"
-  },
-  "Translate X -50": {
-    "prefix": "translatex-50",
-    "body": ["transform: translateX(-50%);"],
-    "description": "Translate X -50"
-  },
-  "Translate Y 50": {
-    "prefix": "translatey50",
-    "body": ["transform: translateY(50%);"],
-    "description": "Translate Y 50"
-  },
-  "Translate Y -50": {
-    "prefix": "translatey-50",
-    "body": ["transform: translateY(-50%);"],
-    "description": "Translate Y -50"
-  },
   "Top full": {
     "prefix": "top-full",
     "body": ["top: 100%;"],
@@ -980,5 +964,154 @@
     "prefix": "w-fit",
     "body": ["width: fit-content;"],
     "description": "Width fit content"
+  },
+  "Object fit cover": {
+    "prefix": "object-cover",
+    "body": ["object-fit: cover;"],
+    "description": "Object fit cover"
+  },
+  "Object fit contain": {
+    "prefix": "object-contain",
+    "body": ["object-fit: contain;"],
+    "description": "Object fit contain"
+  },
+  "Object fit fill": {
+    "prefix": "object-fill",
+    "body": ["object-fit: fill;"],
+    "description": "Object fit fill"
+  },
+  "Background cover": {
+    "prefix": "bg-cover",
+    "body": ["background-size: cover;"],
+    "description": "Background cover"
+  },
+  "Ratio 16-9": {
+    "prefix": "ratio-169",
+    "body": [
+      "position: relative;",
+      "height: 0;",
+      "padding-bottom: calc((9 / 16) * 100%);"
+    ],
+    "description": "Ratio 16-9"
+  },
+  "Ratio 11": {
+    "prefix": "ratio-11",
+    "body": ["position: relative;", "height: 0;", "padding-bottom: 100%"],
+    "description": "Ratio 11"
+  },
+  "Ratio calc": {
+    "prefix": "ratio-calc",
+    "body": [
+      "position: relative;",
+      "height: 0;",
+      "padding-bottom: calc(($1 / $2) * 100%);"
+    ],
+    "description": "Ratio calc"
+  },
+  "Break all": {
+    "prefix": "break-all",
+    "body": ["word-break: break-all;"],
+    "description": "Break all"
+  },
+  "Break word": {
+    "prefix": "break-word",
+    "body": ["word-break: break-word;"],
+    "description": "Break word"
+  },
+  "Hyphen": {
+    "prefix": "hyphen-auto",
+    "body": ["hyphens: auto;"],
+    "description": "Hyphen"
+  },
+  "Ratio image": {
+    "prefix": "ratio-image",
+    "body": [
+      "position: absolute;",
+      "top: 0;",
+      "left: 0;",
+      "width: 100%;",
+      "height: 100%;",
+      "object-fit: cover;"
+    ],
+    "description": "Ratio image"
+  },
+  "Text stroke": {
+    "prefix": "text-stroke",
+    "body": [
+      "-webkit-text-fill-color: white; ",
+      "-webkit-text-stroke-width: 1px;",
+      "-webkit-text-stroke-color: black;"
+    ],
+    "description": "Text stroke"
+  },
+  "Scroll snap stop always": {
+    "prefix": "scroll-always",
+    "body": ["scroll-snap-stop: always;"],
+    "description": "Scroll snap stop always"
+  },
+  "Scroll snap type x": {
+    "prefix": "scroll-x",
+    "body": ["scroll-snap-type: x mandatory;"],
+    "description": "Scroll snap type x"
+  },
+  "Scroll snap align start": {
+    "prefix": "scroll-align-start",
+    "body": ["scroll-snap-align: start;"],
+    "description": "Scroll snap align start"
+  },
+  "Scroll snap align end": {
+    "prefix": "scroll-align-end",
+    "body": ["scroll-snap-align: end;"],
+    "description": "Scroll snap align end"
+  },
+  "Scroll snap align center": {
+    "prefix": "scroll-align-center",
+    "body": ["scroll-snap-align: center;"],
+    "description": "Scroll snap align center"
+  },
+  "Fake spacing dropdown": {
+    "prefix": "dropdown-spacing",
+    "body": [
+      "content: \"\";",
+      "position: absolute;",
+      "top: 0;",
+      "left: 0;",
+      "width: 100%;",
+      "height: $1;",
+      "transform: translateY(-100%);",
+      "background-color: transparent;",
+      "opacity: 0;"
+    ],
+    "description": "Fake spacing dropdown"
+  },
+  "Background current color": {
+    "prefix": "bg-current",
+    "body": [
+      "content: \"\";",
+      "position: absolute;",
+      "top: 0;",
+      "right: 0;",
+      "bottom: 0;",
+      "left: 0;",
+      "background-color: currentColor;",
+      "opacity: 0.25;",
+      "border-radius: inherit;"
+    ],
+    "description": "Background current color"
+  },
+  "Width calculation": {
+    "prefix": "w-calc",
+    "body": ["width: calc($1);"],
+    "description": "Width calculation"
+  },
+  "Height calculation": {
+    "prefix": "h-calc",
+    "body": ["height: calc($1);"],
+    "description": "Height calculation"
+  },
+  "Shadow center": {
+    "prefix": "shadow-center",
+    "body": ["box-shadow: 0 0 $1 $2 $3;"],
+    "description": "Shadow center"
   }
 }
