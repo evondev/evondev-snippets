@@ -741,44 +741,34 @@
     "description": "Spacing combinator class"
   },
   "Quick color purple": {
-    "prefix": "cpurple",
+    "prefix": "c-purple",
     "body": ["#6A5AF9;"],
     "description": "Quick color purple"
   },
   "Quick color blue": {
-    "prefix": "cblue",
+    "prefix": "c-blue",
     "body": ["#3D6EF7;"],
     "description": "Quick color blue"
   },
   "Quick color green": {
-    "prefix": "cgreen",
+    "prefix": "c-green",
     "body": ["#20E3B2;"],
     "description": "Quick color green"
   },
   "Quick color orange": {
-    "prefix": "corange",
+    "prefix": "c-orange",
     "body": ["#FF6651;"],
     "description": "Quick color orange"
   },
   "Quick color pink": {
-    "prefix": "cpink",
+    "prefix": "c-pink",
     "body": ["#F62682;"],
     "description": "Quick color pink"
   },
   "Quick color gray": {
-    "prefix": "cgray",
+    "prefix": "c-gray",
     "body": ["#eee;"],
     "description": "Quick color gray"
-  },
-  "Quick color white": {
-    "prefix": "cwhite",
-    "body": ["color: white;"],
-    "description": "Quick color white"
-  },
-  "Quick color black": {
-    "prefix": "cblack",
-    "body": ["color: black;"],
-    "description": "Quick color black"
   },
   "Rounded full": {
     "prefix": "rounded-full",
@@ -814,16 +804,6 @@
     "prefix": "min-w-full",
     "body": ["min-width: 100%"],
     "description": "Min width full"
-  },
-  "Rgba": {
-    "prefix": "b-rgba",
-    "body": ["background-color: rgba($1, $2, $3, $4);"],
-    "description": "Rgba"
-  },
-  "CRgba": {
-    "prefix": "c-rgba",
-    "body": ["color: rgba($1, $2, $3, $4);"],
-    "description": "CRgba"
   },
   "Top full": {
     "prefix": "top-full",
@@ -939,16 +919,6 @@
     "prefix": "mx-auto",
     "body": ["margin-left: auto;", "margin-right: auto;"],
     "description": "Margin x auto"
-  },
-  "PX 15": {
-    "prefix": "px-15",
-    "body": ["padding-left: 15px;", "padding-right: 15px;"],
-    "description": "PX 15"
-  },
-  "PX 20": {
-    "prefix": "px-20",
-    "body": ["padding-left: 20px;", "padding-right: 20px;"],
-    "description": "PX 20"
   },
   "Width max content": {
     "prefix": "w-max",
@@ -1098,16 +1068,6 @@
       "border-radius: inherit;"
     ],
     "description": "Background current color"
-  },
-  "Width calculation": {
-    "prefix": "w-calc",
-    "body": ["width: calc($1);"],
-    "description": "Width calculation"
-  },
-  "Height calculation": {
-    "prefix": "h-calc",
-    "body": ["height: calc($1);"],
-    "description": "Height calculation"
   },
   "Shadow center": {
     "prefix": "shadow-center",
