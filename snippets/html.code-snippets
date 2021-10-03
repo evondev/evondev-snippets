@@ -74,5 +74,47 @@
       "</a>"
     ],
     "description": "UI Component for link wrapped image"
+  },
+  "Import Ionicons": {
+    "prefix": "html-ionicons",
+    "body": [
+      "<script type=\"module\" src=\"https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js\"></script>",
+      "<script nomodule src=\"https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js\"></script>"
+    ],
+    "description": "Import Ionicons"
+  },
+  "Import google font": {
+    "prefix": "html-google-font",
+    "body": [
+      "<link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">",
+      "<link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>",
+      "<link href=\"https://fonts.googleapis.com/css2?family=${1:Poppins}:wght@300;400;500;600;700&display=swap\" rel=\"stylesheet\">"
+    ],
+    "description": "Import google font"
+  },
+  "Import slick slider": {
+    "prefix": "html-slick-slider",
+    "body": [
+      "<script",
+      "  type=\"text/javascript\"",
+      "  src=\"https://code.jquery.com/jquery-1.11.0.min.js\"",
+      "></script>",
+      "<script",
+      "  type=\"text/javascript\"",
+      "  src=\"https://code.jquery.com/jquery-migrate-1.2.1.min.js\"",
+      "></script>",
+      "<script",
+      "  type=\"text/javascript\"",
+      "  src=\"https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js\"",
+      "></script>"
+    ],
+    "description": "Import slick slider"
+  },
+  "Import favicon": {
+    "prefix": "html-favicon",
+    "body": [
+      "<link rel=\"icon\" href=\"favicon.ico\" type=\"image/x-icon\" />"
+    ],
+    "description": "Import favicon"
   }
 }
