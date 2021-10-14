@@ -565,11 +565,6 @@
     "body": ["display: flex;", "align-items: flex-start;"],
     "description": "Flexbox align start"
   },
-  "Flexbox justify end": {
-    "prefix": "fjend",
-    "body": ["display: flex;", "justify-content: flex-end;"],
-    "description": "Flexbox justify end"
-  },
   "Width full": {
     "prefix": "wfull",
     "body": ["width: 100%;"],
@@ -735,39 +730,34 @@
     ],
     "description": "Flexbox column space between"
   },
-  "Spacing combinator class": {
-    "prefix": "plus-spacing",
-    "body": [".${1:class} + .${1:class} {", "  margin-left: $0;", "}"],
-    "description": "Spacing combinator class"
-  },
   "Quick color purple": {
     "prefix": "c-purple",
-    "body": ["#6A5AF9;"],
+    "body": ["#6A5AF9"],
     "description": "Quick color purple"
   },
   "Quick color blue": {
     "prefix": "c-blue",
-    "body": ["#3D6EF7;"],
+    "body": ["#2cccff"],
     "description": "Quick color blue"
   },
   "Quick color green": {
     "prefix": "c-green",
-    "body": ["#20E3B2;"],
+    "body": ["#20E3B2"],
     "description": "Quick color green"
   },
   "Quick color orange": {
     "prefix": "c-orange",
-    "body": ["#FF6651;"],
+    "body": ["#FF6651"],
     "description": "Quick color orange"
   },
   "Quick color pink": {
     "prefix": "c-pink",
-    "body": ["#F62682;"],
+    "body": ["#F62682"],
     "description": "Quick color pink"
   },
   "Quick color gray": {
     "prefix": "c-gray",
-    "body": ["#eee;"],
+    "body": ["#eee"],
     "description": "Quick color gray"
   },
   "Rounded full": {
@@ -799,41 +789,6 @@
     "prefix": "rounded-inherit",
     "body": ["border-radius: inherit;"],
     "description": "Rounded inherit"
-  },
-  "Min width full": {
-    "prefix": "min-w-full",
-    "body": ["min-width: 100%"],
-    "description": "Min width full"
-  },
-  "Top full": {
-    "prefix": "top-full",
-    "body": ["top: 100%;"],
-    "description": "Top full"
-  },
-  "left full": {
-    "prefix": "left-full",
-    "body": ["left: 100%;"],
-    "description": "left full"
-  },
-  "right full": {
-    "prefix": "right-full",
-    "body": ["right: 100%;"],
-    "description": "right full"
-  },
-  "bottom full": {
-    "prefix": "bottom-full",
-    "body": ["bottom: 100%;"],
-    "description": "bottom full"
-  },
-  "top 50": {
-    "prefix": "top-half",
-    "body": ["top: 50%;"],
-    "description": "top 50"
-  },
-  "left 50": {
-    "prefix": "left-half",
-    "body": ["left: 50%;"],
-    "description": "left 50"
   },
   "Input caret": {
     "prefix": "input-caret",
