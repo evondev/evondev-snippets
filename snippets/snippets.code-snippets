@@ -323,7 +323,7 @@
       "}",
       ".your-class > * {",
       "  margin-left: var(--f-gap);",
-      "  margin-left: var(--f-gap);",
+      "  margin-bottom: var(--f-gap);",
       "  width: calc((100% / var(--f-columns) - var(--f-gap)));",
       "}"
     ],
