@@ -313,7 +313,7 @@
   "Flex layout": {
     "prefix": "flex-layout",
     "body": [
-      ".your-class{",
+      ".${1:your-class}{",
       "  --f-columns: 4;",
       "  --f-gap: 20px;",
       "  display: flex;",
@@ -321,7 +321,7 @@
       "  margin-left: calc(-1 * var(--f-gap));",
       "  margin-bottom: calc(-1 * var(--f-gap));",
       "}",
-      ".your-class > * {",
+      ".${1:your-class} > * {",
       "  margin-left: var(--f-gap);",
       "  margin-bottom: var(--f-gap);",
       "  width: calc((100% / var(--f-columns) - var(--f-gap)));",
@@ -333,7 +333,7 @@
     "prefix": "grid-layout",
     "body": [
       "display: grid;",
-      "grid-template-columns: repeat($1, 1fr);",
+      "grid-template-columns: repeat($1, minmax(0, 1fr);",
       "grid-gap: $2;"
     ],
     "description": "Simple grid layout"
@@ -407,16 +407,6 @@
       "left: 0;"
     ],
     "description": "Position fixed full"
-  },
-  "Sizing radius": {
-    "prefix": "boxed",
-    "body": [
-      "width: $1;",
-      "height: $1;",
-      "border-radius: $1;",
-      "overflow: hidden;"
-    ],
-    "description": "Sizing radius"
   },
   "Position relative": {
     "prefix": "relative",
@@ -910,20 +900,6 @@
     "body": ["background-size: cover;"],
     "description": "Background cover"
   },
-  "Ratio 16-9": {
-    "prefix": "ratio-169",
-    "body": [
-      "position: relative;",
-      "height: 0;",
-      "padding-bottom: calc((9 / 16) * 100%);"
-    ],
-    "description": "Ratio 16-9"
-  },
-  "Ratio 11": {
-    "prefix": "ratio-11",
-    "body": ["position: relative;", "height: 0;", "padding-bottom: 100%"],
-    "description": "Ratio 11"
-  },
   "Ratio calc": {
     "prefix": "ratio-calc",
     "body": [
@@ -969,31 +945,6 @@
     ],
     "description": "Text stroke"
   },
-  "Scroll snap stop always": {
-    "prefix": "scroll-always",
-    "body": ["scroll-snap-stop: always;"],
-    "description": "Scroll snap stop always"
-  },
-  "Scroll snap type x": {
-    "prefix": "scroll-x",
-    "body": ["scroll-snap-type: x mandatory;"],
-    "description": "Scroll snap type x"
-  },
-  "Scroll snap align start": {
-    "prefix": "scroll-align-start",
-    "body": ["scroll-snap-align: start;"],
-    "description": "Scroll snap align start"
-  },
-  "Scroll snap align end": {
-    "prefix": "scroll-align-end",
-    "body": ["scroll-snap-align: end;"],
-    "description": "Scroll snap align end"
-  },
-  "Scroll snap align center": {
-    "prefix": "scroll-align-center",
-    "body": ["scroll-snap-align: center;"],
-    "description": "Scroll snap align center"
-  },
   "Fake spacing dropdown": {
     "prefix": "dropdown-spacing",
     "body": [
@@ -1009,24 +960,14 @@
     ],
     "description": "Fake spacing dropdown"
   },
-  "Background current color": {
-    "prefix": "bg-current",
-    "body": [
-      "content: \"\";",
-      "position: absolute;",
-      "top: 0;",
-      "right: 0;",
-      "bottom: 0;",
-      "left: 0;",
-      "background-color: currentColor;",
-      "opacity: 0.25;",
-      "border-radius: inherit;"
-    ],
-    "description": "Background current color"
+  "Overscroll X": {
+    "prefix": "overscroll-x",
+    "body": ["overscroll-behavior-x: contain;"],
+    "description": "Overscroll X"
   },
-  "Shadow center": {
-    "prefix": "shadow-center",
-    "body": ["box-shadow: 0 0 $1 $2 $3;"],
-    "description": "Shadow center"
+  "Overscroll y": {
+    "prefix": "overscroll-y",
+    "body": ["overscroll-behavior-y: contain;"],
+    "description": "Overscroll y"
   }
 }
