@@ -329,14 +329,18 @@
     ],
     "description": "Flex layout"
   },
-  "Simple grid layout": {
+  "Grid layout": {
     "prefix": "grid-layout",
     "body": [
-      "display: grid;",
-      "grid-template-columns: repeat($1, minmax(0, 1fr);",
-      "grid-gap: $2;"
+      ".{$1:your-class}{",
+      "    --columns: 4;",
+      "    --gap: 20px;",
+      "    display: grid;",
+      "    grid-template-columns: repeat(var(--columns), minmax(0, 1fr));",
+      "    grid-gap: var(--gap);",
+      "}"
     ],
-    "description": "Simple grid layout"
+    "description": "Grid layout"
   },
   "Change autofill input background": {
     "prefix": "input-autofill-bg",
