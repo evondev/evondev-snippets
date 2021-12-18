@@ -2,7 +2,7 @@
 
 Useful HTML and CSS snippets that will help you save a lot of time when coding.
 
-## Notice ⚠️
+## Notice
 
 Some snippets will warning in Vanilla CSS because some code I write base on SASS way
 

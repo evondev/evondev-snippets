@@ -332,7 +332,7 @@
   "Grid layout": {
     "prefix": "grid-layout",
     "body": [
-      ".{$1:your-class}{",
+      ".${1:your-class}{",
       "    --columns: 4;",
       "    --gap: 20px;",
       "    display: grid;",
@@ -641,17 +641,17 @@
   },
   "Under pc": {
     "prefix": "@1023",
-    "body": ["@media screen and (max-width: 1023px) {", "$0", "}", ""],
+    "body": ["@media screen and (max-width: 1023.98px) {", "$0", "}", ""],
     "description": "Under pc"
   },
   "Under tablet": {
     "prefix": "@767",
-    "body": ["@media screen and (max-width: 767px) {", "$0", "}", ""],
+    "body": ["@media screen and (max-width: 767.98px) {", "$0", "}", ""],
     "description": "Under tablet"
   },
   "Smallest screen": {
     "prefix": "@374",
-    "body": ["@media screen and (max-width: 374px) {", "$0", "}", ""],
+    "body": ["@media screen and (max-width: 374.98px) {", "$0", "}", ""],
     "description": "Smallest screen"
   },
   "Above Smallest screen": {
@@ -676,7 +676,7 @@
   },
   "Below small pc": {
     "prefix": "@1279",
-    "body": ["@media screen and (max-width: 1279px) {", "$0", "}", ""],
+    "body": ["@media screen and (max-width: 1279.98px) {", "$0", "}", ""],
     "description": "Below small pc"
   },
   "Center with inline block": {
