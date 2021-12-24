@@ -274,42 +274,6 @@
     ],
     "description": "CSS Mobile scroll snap"
   },
-  "Simple reset css": {
-    "prefix": "css-reset",
-    "body": [
-      "html {",
-      "box-sizing: border-box;",
-      "}",
-      "*{",
-      "margin: 0;",
-      "padding: 0;",
-      "}",
-      "*,*:before,*:after {",
-      "box-sizing: border-box;",
-      "}",
-      "input,",
-      "textarea,",
-      "select,",
-      "button{",
-      "outline: none;",
-      "}",
-      "input{",
-      "line-height: normal;",
-      "}",
-      "label,",
-      "button{",
-      "cursor: pointer;",
-      "}",
-      "a {",
-      "text-decoration: none;",
-      "}",
-      "img {",
-      "display: block;",
-      "max-width: 100%;",
-      "}"
-    ],
-    "description": "Simple reset css"
-  },
   "Flex layout": {
     "prefix": "flex-layout",
     "body": [
@@ -994,5 +958,90 @@
     "prefix": "ratio-number",
     "body": ["aspect-ratio: $1/$2"],
     "description": "Ratio number"
+  },
+  "Reduced animation": {
+    "prefix": "@reduce-animation",
+    "body": [
+      "@media (prefers-reduced-motion: reduce) {  ",
+      "  *,",
+      "  *::before,",
+      "  *::after {",
+      "    animation-duration: 0.01ms !important;",
+      "    animation-iteration-count: 1 !important;",
+      "    transition-duration: 0.01ms !important;",
+      "    scroll-behavior: auto !important;",
+      "  }",
+      "}"
+    ],
+    "description": "Reduced animation"
+  },
+  "CSS reset": {
+    "prefix": "css-reset",
+    "body": [
+      "*,",
+      "*::before,",
+      "*::after {",
+      "  box-sizing: border-box;",
+      "}",
+      "body,",
+      "h1,",
+      "h2,",
+      "h3,",
+      "h4,",
+      "h5,",
+      "p,",
+      "figure,",
+      "picture {",
+      "  margin: 0;",
+      "}",
+      "body {",
+      "  min-height: 100vh;",
+      "  line-height: 1.5;",
+      "}",
+      "input,",
+      "button,",
+      "select,",
+      "textarea {",
+      "  font: inherit;",
+      "}",
+      "img,",
+      "picture {",
+      "  display: block;",
+      "  max-width: 100%;",
+      "}",
+      "/* remove animation for people who've turned them off */",
+      "@media (prefers-reduced-motion: reduce) {",
+      "  *,",
+      "  *::before,",
+      "  *::after {",
+      "    animation-duration: 0.01ms !important;",
+      "    animation-iteration-count: 1 !important;",
+      "    transition-duration: 0.01ms !important;",
+      "    scroll-behavior: auto !important;",
+      "  }",
+      "}",
+      ""
+    ],
+    "description": "CSS reset"
+  },
+  "Media dark mode": {
+    "prefix": "@dark-mode",
+    "body": ["@media (prefers-color-scheme: dark) {", "  $1", "}"],
+    "description": "Media dark mode"
+  },
+  "Media light mode": {
+    "prefix": "@light-mode",
+    "body": ["@media (prefers-color-scheme: light) {", "  $1", "}"],
+    "description": "Media light mode"
+  },
+  "Media hover": {
+    "prefix": "@hover",
+    "body": ["@media (hover: hover) {", "  $1", "}"],
+    "description": "Media hover"
+  },
+  "Remove tap color": {
+    "prefix": "tap-highlight",
+    "body": ["-webkit-tap-highlight-color: rgba(0, 0, 0, 0);", ""],
+    "description": "Remove tap color"
   }
 }
