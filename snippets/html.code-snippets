@@ -134,5 +134,185 @@
       "  />"
     ],
     "description": "Slick CSS import"
+  },
+  "Navigation layout1": {
+    "prefix": "nav-layout",
+    "body": [
+      "<div class=\"navigation\">",
+      "  <img src=\"\" alt=\"\" class=\"logo\">",
+      "  <ul class=\"menu\">",
+      "    <li class=\"menu-item\">",
+      "      <a href=\"#\" class=\"menu-link\">Your text</a>",
+      "    </li>",
+      "    <li class=\"menu-item\">",
+      "      <a href=\"#\" class=\"menu-link\">Your text</a>",
+      "    </li>",
+      "    <li class=\"menu-item\">",
+      "      <a href=\"#\" class=\"menu-link\">Your text</a>",
+      "    </li>",
+      "    <li class=\"menu-item\">",
+      "      <a href=\"#\" class=\"menu-link\">Your text</a>",
+      "    </li>",
+      "    <li class=\"menu-item\">",
+      "      <a href=\"#\" class=\"menu-link\">Your text</a>",
+      "    </li>",
+      "  </ul>",
+      "</div>"
+    ],
+    "description": "Navigation layout1"
+  },
+  "Navigation layout2": {
+    "prefix": "nav-layout-buttons",
+    "body": [
+      "<div class=\"navigation\">",
+      "  <img src=\"\" alt=\"\" class=\"logo\">",
+      "  <ul class=\"menu\">",
+      "    <li class=\"menu-item\">",
+      "      <a href=\"#\" class=\"menu-link\">Your text</a>",
+      "    </li>",
+      "    <li class=\"menu-item\">",
+      "      <a href=\"#\" class=\"menu-link\">Your text</a>",
+      "    </li>",
+      "    <li class=\"menu-item\">",
+      "      <a href=\"#\" class=\"menu-link\">Your text</a>",
+      "    </li>",
+      "    <li class=\"menu-item\">",
+      "      <a href=\"#\" class=\"menu-link\">Your text</a>",
+      "    </li>",
+      "    <li class=\"menu-item\">",
+      "      <a href=\"#\" class=\"menu-link\">Your text</a>",
+      "    </li>",
+      "  </ul>",
+      "  <div class=\"\">",
+      "    <a href=\"#!\" class=\"btn\">Contact Us</a>",
+      "  </div>",
+      "</div>"
+    ],
+    "description": "Navigation layout2"
+  },
+  "Navigation layout3": {
+    "prefix": "nav-layout-search",
+    "body": [
+      "<div class=\"navigation\">",
+      "  <img src=\"\" alt=\"\" class=\"logo\">",
+      "  <ul class=\"menu\">",
+      "    <li class=\"menu-item\">",
+      "      <a href=\"#\" class=\"menu-link\">Your text</a>",
+      "    </li>",
+      "    <li class=\"menu-item\">",
+      "      <a href=\"#\" class=\"menu-link\">Your text</a>",
+      "    </li>",
+      "    <li class=\"menu-item\">",
+      "      <a href=\"#\" class=\"menu-link\">Your text</a>",
+      "    </li>",
+      "    <li class=\"menu-item\">",
+      "      <a href=\"#\" class=\"menu-link\">Your text</a>",
+      "    </li>",
+      "    <li class=\"menu-item\">",
+      "      <a href=\"#\" class=\"menu-link\">Your text</a>",
+      "    </li>",
+      "  </ul>",
+      "  <div class=\"\">",
+      "    <div class=\"search\">",
+      "      <img src=\"\" alt=\"\" class=\"search-icon\">",
+      "      <input type=\"text\" class=\"search-input\" placeholder=\"Serach\">",
+      "    </div>",
+      "  </div>",
+      "</div>"
+    ],
+    "description": "Navigation layout3"
+  },
+  "Navigation layout4": {
+    "prefix": "nav-layout-cart",
+    "body": [
+      "<div class=\"navigation\">",
+      "  <img src=\"\" alt=\"\" class=\"logo\">",
+      "  <ul class=\"menu\">",
+      "    <li class=\"menu-item\">",
+      "      <a href=\"#\" class=\"menu-link\">Your text</a>",
+      "    </li>",
+      "    <li class=\"menu-item\">",
+      "      <a href=\"#\" class=\"menu-link\">Your text</a>",
+      "    </li>",
+      "    <li class=\"menu-item\">",
+      "      <a href=\"#\" class=\"menu-link\">Your text</a>",
+      "    </li>",
+      "    <li class=\"menu-item\">",
+      "      <a href=\"#\" class=\"menu-link\">Your text</a>",
+      "    </li>",
+      "    <li class=\"menu-item\">",
+      "      <a href=\"#\" class=\"menu-link\">Your text</a>",
+      "    </li>",
+      "  </ul>",
+      "  <div class=\"\">",
+      "    <div class=\"search\">",
+      "      <img src=\"\" alt=\"\" class=\"search-icon\">",
+      "      <input type=\"text\" class=\"search-input\" placeholder=\"Serach\">",
+      "    </div>",
+      "    <div class=\"cart\">",
+      "      <img src=\"\" alt=\"\" class=\"cart-icon\">",
+      "    </div>",
+      "  </div>",
+      "</div>"
+    ],
+    "description": "Navigation layout4"
+  },
+  "Box item layout": {
+    "prefix": "box-item-layout",
+    "body": [
+      "<div class=\"item\">",
+      "  <div class=\"item-image\">",
+      "    <img src=\"\" alt=\"\" class=\"item-img\">",
+      "  </div>",
+      "  <div class=\"item-content\">",
+      "    <h3 class=\"item-title\">Title</h3>",
+      "    <p class=\"item-text\">Text</p>",
+      "  </div>",
+      "</div>"
+    ],
+    "description": "Box item layout"
+  },
+  "Subscribe form": {
+    "prefix": "subscribe-form",
+    "body": [
+      "<div class=\"subscribe\">",
+      "  <div class=\"subscribe-field\">",
+      "    <img src=\"\" alt=\"\" class=\"subscribe-icon\">",
+      "    <input type=\"email\" class=\"subscribe-input\" placeholder=\"Enter your email here\">",
+      "  </div>",
+      "  <button class=\"subscribe-button\">Subscribe</button>",
+      "</div>"
+    ],
+    "description": "Subscribe form"
+  },
+  "Footer column": {
+    "prefix": "footer-column",
+    "body": [
+      "<div class=\"footer-column\">",
+      "  <h3 class=\"footer-heading\">Products</h3>",
+      "  <ul class=\"footer-links\">",
+      "    <li>",
+      "      <a href=\"#!\" class=\"footer-link\">Packages</a>",
+      "    </li>",
+      "    <li>",
+      "      <a href=\"#!\" class=\"footer-link\">Packages</a>",
+      "    </li>",
+      "    <li>",
+      "      <a href=\"#!\" class=\"footer-link\">Packages</a>",
+      "    </li>",
+      "  </ul>",
+      "</div>"
+    ],
+    "description": "Footer column"
+  },
+  "List item": {
+    "prefix": "list-item-icon",
+    "body": [
+      "<div class=\"item\">",
+      "  <div class=\"item-icon\">icon</div>",
+      "  <div class=\"item-title\">title</div>",
+      "</div>"
+    ],
+    "description": "List item"
   }
 }
