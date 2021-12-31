@@ -1,10 +1,10 @@
-# Introduction
+# **Coding HTML & CSS faster than ever ⚡️🚀**
 
-Useful HTML and CSS snippets that will help you save a lot of time when coding.
+[![Version](https://vsmarketplacebadge.apphb.com/version/evondev.evondev-snippets.svg)](https://marketplace.visualstudio.com/items?itemName=evondev.evondev-snippets)
+[![Rating](https://vsmarketplacebadge.apphb.com/rating/evondev.evondev-snippets.svg)](https://marketplace.visualstudio.com/items?itemName=evondev.evondev-snippets)
+[![Downloads](https://vsmarketplacebadge.apphb.com/downloads/evondev.evondev-snippets.svg)](https://marketplace.visualstudio.com/items?itemName=evondev.evondev-snippets)
 
-## Table of HTML snippets
-
-These are useful snippets just show HTML layout for some most use UI when coding. If you want to know how to CSS please check the next section (Useful HTML CSS)
+## Table of HTML snippets 🧑‍💻
 
 | Prefix                | Code                                                     |
 | --------------------- | -------------------------------------------------------- |
@@ -25,31 +25,7 @@ These are useful snippets just show HTML layout for some most use UI when coding
 | `html-slick-slider`   | Insert slick slider scripts                              |
 | `html-fontawesome`    | Insert fontawesome icons                                 |
 
-<!--
-
-## Useful HTML CSS UI Component
-
-These are useful UI components with HTML and CSS for reference purposes
-
-- ui-flex-layout1
-- ui-flex-layout2
-- ui-flex-layout3
-- ui-flex-layout4
-- ui-dropdown
-- ui-custom-checkbox
-- ui-custom-radio
-- ui-search1
-- ui-search2
-- ui-button-icon
-- ui-tab1
-- ui-icon-opacity
-- ui-switch-toggle
-- ui-modal
-- ui-notification
-- ui-mega-menu
-- ui-menu-dropdown -->
-
-## Table of CSS snippets
+## Table of CSS snippets 🧑‍💻
 
 | Prefix              | Code                                                                                                             |
 | ------------------- | ---------------------------------------------------------------------------------------------------------------- |
