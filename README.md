@@ -2,20 +2,30 @@
 
 Useful HTML and CSS snippets that will help you save a lot of time when coding.
 
-## Notice
-
-Some snippets will warning in Vanilla CSS because some code I write base on SASS way
-
-## Useful HTML layout
+## Table of HTML snippets
 
 These are useful snippets just show HTML layout for some most use UI when coding. If you want to know how to CSS please check the next section (Useful HTML CSS)
 
-- html-menu
-- html-dropdown
-- html-modal
-- html-tab
-- html-accordion
-- html-linkwrap-img
+| Prefix                | Code                                                     |
+| --------------------- | -------------------------------------------------------- |
+| `html-menu`           | Display HTML for common menu layout                      |
+| `html-dropdown`       | Display HTML for dropdown                                |
+| `html-modal`          | Display HTML for modal                                   |
+| `html-tab`            | Display HTML for tab                                     |
+| `html-accordion`      | Display HTML for accordion                               |
+| `html-linkwrap-img`   | Display HTML with `a` wrap `img` tag                     |
+| `html-search`         | Display HTML for simple search form layout with icon     |
+| `html-subscribe-form` | Display HTML for simple subscribe form layout            |
+| `html-list-item`      | Display HTML for simple text with icon                   |
+| `html-footer-column`  | Display HTML for footer column with links                |
+| `html-box-item`       | Display HTML for common layout image title & description |
+| `html-slick-css`      | Insert Slick CSS                                         |
+| `html-favicon`        | Using favicon HTML                                       |
+| `html-ionicons`       | Insert ionicons                                          |
+| `html-slick-slider`   | Insert slick slider scripts                              |
+| `html-fontawesome`    | Insert fontawesome icons                                 |
+
+<!--
 
 ## Useful HTML CSS UI Component
 
@@ -37,7 +47,7 @@ These are useful UI components with HTML and CSS for reference purposes
 - ui-modal
 - ui-notification
 - ui-mega-menu
-- ui-menu-dropdown
+- ui-menu-dropdown -->
 
 ## Table of CSS snippets
 

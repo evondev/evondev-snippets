@@ -83,15 +83,6 @@
     ],
     "description": "Import Ionicons"
   },
-  "Import google font": {
-    "prefix": "html-google-font",
-    "body": [
-      "<link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">",
-      "<link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>",
-      "<link href=\"https://fonts.googleapis.com/css2?family=${1:Poppins}:wght@300;400;500;600;700&display=swap\" rel=\"stylesheet\">"
-    ],
-    "description": "Import google font"
-  },
   "Import slick slider": {
     "prefix": "html-slick-slider",
     "body": [
@@ -135,130 +126,8 @@
     ],
     "description": "Slick CSS import"
   },
-  "Navigation layout1": {
-    "prefix": "nav-layout",
-    "body": [
-      "<div class=\"navigation\">",
-      "  <img src=\"\" alt=\"\" class=\"logo\">",
-      "  <ul class=\"menu\">",
-      "    <li class=\"menu-item\">",
-      "      <a href=\"#\" class=\"menu-link\">Your text</a>",
-      "    </li>",
-      "    <li class=\"menu-item\">",
-      "      <a href=\"#\" class=\"menu-link\">Your text</a>",
-      "    </li>",
-      "    <li class=\"menu-item\">",
-      "      <a href=\"#\" class=\"menu-link\">Your text</a>",
-      "    </li>",
-      "    <li class=\"menu-item\">",
-      "      <a href=\"#\" class=\"menu-link\">Your text</a>",
-      "    </li>",
-      "    <li class=\"menu-item\">",
-      "      <a href=\"#\" class=\"menu-link\">Your text</a>",
-      "    </li>",
-      "  </ul>",
-      "</div>"
-    ],
-    "description": "Navigation layout1"
-  },
-  "Navigation layout2": {
-    "prefix": "nav-layout-buttons",
-    "body": [
-      "<div class=\"navigation\">",
-      "  <img src=\"\" alt=\"\" class=\"logo\">",
-      "  <ul class=\"menu\">",
-      "    <li class=\"menu-item\">",
-      "      <a href=\"#\" class=\"menu-link\">Your text</a>",
-      "    </li>",
-      "    <li class=\"menu-item\">",
-      "      <a href=\"#\" class=\"menu-link\">Your text</a>",
-      "    </li>",
-      "    <li class=\"menu-item\">",
-      "      <a href=\"#\" class=\"menu-link\">Your text</a>",
-      "    </li>",
-      "    <li class=\"menu-item\">",
-      "      <a href=\"#\" class=\"menu-link\">Your text</a>",
-      "    </li>",
-      "    <li class=\"menu-item\">",
-      "      <a href=\"#\" class=\"menu-link\">Your text</a>",
-      "    </li>",
-      "  </ul>",
-      "  <div class=\"\">",
-      "    <a href=\"#!\" class=\"btn\">Contact Us</a>",
-      "  </div>",
-      "</div>"
-    ],
-    "description": "Navigation layout2"
-  },
-  "Navigation layout3": {
-    "prefix": "nav-layout-search",
-    "body": [
-      "<div class=\"navigation\">",
-      "  <img src=\"\" alt=\"\" class=\"logo\">",
-      "  <ul class=\"menu\">",
-      "    <li class=\"menu-item\">",
-      "      <a href=\"#\" class=\"menu-link\">Your text</a>",
-      "    </li>",
-      "    <li class=\"menu-item\">",
-      "      <a href=\"#\" class=\"menu-link\">Your text</a>",
-      "    </li>",
-      "    <li class=\"menu-item\">",
-      "      <a href=\"#\" class=\"menu-link\">Your text</a>",
-      "    </li>",
-      "    <li class=\"menu-item\">",
-      "      <a href=\"#\" class=\"menu-link\">Your text</a>",
-      "    </li>",
-      "    <li class=\"menu-item\">",
-      "      <a href=\"#\" class=\"menu-link\">Your text</a>",
-      "    </li>",
-      "  </ul>",
-      "  <div class=\"\">",
-      "    <div class=\"search\">",
-      "      <img src=\"\" alt=\"\" class=\"search-icon\">",
-      "      <input type=\"text\" class=\"search-input\" placeholder=\"Serach\">",
-      "    </div>",
-      "  </div>",
-      "</div>"
-    ],
-    "description": "Navigation layout3"
-  },
-  "Navigation layout4": {
-    "prefix": "nav-layout-cart",
-    "body": [
-      "<div class=\"navigation\">",
-      "  <img src=\"\" alt=\"\" class=\"logo\">",
-      "  <ul class=\"menu\">",
-      "    <li class=\"menu-item\">",
-      "      <a href=\"#\" class=\"menu-link\">Your text</a>",
-      "    </li>",
-      "    <li class=\"menu-item\">",
-      "      <a href=\"#\" class=\"menu-link\">Your text</a>",
-      "    </li>",
-      "    <li class=\"menu-item\">",
-      "      <a href=\"#\" class=\"menu-link\">Your text</a>",
-      "    </li>",
-      "    <li class=\"menu-item\">",
-      "      <a href=\"#\" class=\"menu-link\">Your text</a>",
-      "    </li>",
-      "    <li class=\"menu-item\">",
-      "      <a href=\"#\" class=\"menu-link\">Your text</a>",
-      "    </li>",
-      "  </ul>",
-      "  <div class=\"\">",
-      "    <div class=\"search\">",
-      "      <img src=\"\" alt=\"\" class=\"search-icon\">",
-      "      <input type=\"text\" class=\"search-input\" placeholder=\"Serach\">",
-      "    </div>",
-      "    <div class=\"cart\">",
-      "      <img src=\"\" alt=\"\" class=\"cart-icon\">",
-      "    </div>",
-      "  </div>",
-      "</div>"
-    ],
-    "description": "Navigation layout4"
-  },
   "Box item layout": {
-    "prefix": "box-item-layout",
+    "prefix": "html-box-item",
     "body": [
       "<div class=\"item\">",
       "  <div class=\"item-image\">",
@@ -273,7 +142,7 @@
     "description": "Box item layout"
   },
   "Subscribe form": {
-    "prefix": "subscribe-form",
+    "prefix": "html-subscribe-form",
     "body": [
       "<div class=\"subscribe\">",
       "  <div class=\"subscribe-field\">",
@@ -286,7 +155,7 @@
     "description": "Subscribe form"
   },
   "Footer column": {
-    "prefix": "footer-column",
+    "prefix": "html-footer-column",
     "body": [
       "<div class=\"footer-column\">",
       "  <h3 class=\"footer-heading\">Products</h3>",
@@ -306,7 +175,7 @@
     "description": "Footer column"
   },
   "List item": {
-    "prefix": "list-item-icon",
+    "prefix": "html-list-item",
     "body": [
       "<div class=\"item\">",
       "  <div class=\"item-icon\">icon</div>",
@@ -314,5 +183,30 @@
       "</div>"
     ],
     "description": "List item"
+  },
+  "Search form icon": {
+    "prefix": "html-search",
+    "body": [
+      "<div class=\"search\">",
+      "  <div class=\"search-icon\"></div>",
+      "  <div class=\"search-field\">",
+      "    <input type=\"text\" class=\"search-input\" placeholder=\"Search\">",
+      "  </div>",
+      "</div>"
+    ],
+    "description": "Search form icon"
+  },
+  "Search form button": {
+    "prefix": "html-search-button",
+    "body": [
+      "<div class=\"search\">",
+      "  <div class=\"search-field\">",
+      "    <div class=\"search-icon\"></div>",
+      "    <input type=\"text\" class=\"search-input\" placeholder=\"Search\">",
+      "  </div>",
+      "  <button class=\"search-button\">Search</button>",
+      "</div>"
+    ],
+    "description": "Search form button"
   }
 }
