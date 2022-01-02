@@ -56,11 +56,6 @@
     "body": ["display: flex;", "flex-direction: column;", "$0"],
     "description": "Flexbox column"
   },
-  "Flexbox spacebetween": {
-    "prefix": "fbetween",
-    "body": ["justify-content: space-between;$0"],
-    "description": "Flexbox spacebetween"
-  },
   "Flexbox center spacebetween": {
     "prefix": "facb",
     "body": [
@@ -169,7 +164,7 @@
     "description": "CSS for placeholder"
   },
   "CSS hide spin": {
-    "prefix": "input-spin-hide",
+    "prefix": "input-hide-spinner",
     "body": [
       "input[type=number]::-webkit-inner-spin-button, ",
       "input[type=number]::-webkit-outer-spin-button { ",
@@ -180,7 +175,7 @@
     "description": "CSS hide spin"
   },
   "Hide scrollbar": {
-    "prefix": "scroll-hide",
+    "prefix": "scrollbar-hidden",
     "body": [
       ".${1:yourclass} {",
       "-ms-overflow-style: none;",
@@ -202,36 +197,6 @@
     ],
     "description": "CSS for text"
   },
-  "CSS for input": {
-    "prefix": "input-style",
-    "body": [
-      "padding: $1;",
-      "border: $2;",
-      "border-radius: $3;",
-      "background-color: $4;",
-      "color: $5;",
-      "width: ${6:auto};",
-      "display: ${7:block};"
-    ],
-    "description": "CSS for input"
-  },
-  "Button default style": {
-    "prefix": "button-style",
-    "body": [
-      "display: inline-block;",
-      "text-align: center;",
-      "border: 0;",
-      "background-color: $1;",
-      "color: $2;",
-      "font-size: $3;",
-      "border-radius: $4;",
-      "padding: $5;",
-      "width: ${6: auto;}",
-      "cursor: pointer;",
-      "outline: none;"
-    ],
-    "description": "Button default style"
-  },
   "CSS Modal": {
     "prefix": "modal-style",
     "body": [
@@ -245,7 +210,7 @@
     ],
     "description": "CSS Modal"
   },
-  "CSS Mobile scroll snap": {
+  "Scroll snap": {
     "prefix": "grid-scroll-snap",
     "body": [
       ".${1:yourclass} {",
@@ -272,7 +237,7 @@
       "  scroll-snap-align: start;",
       "}"
     ],
-    "description": "CSS Mobile scroll snap"
+    "description": "Scroll snap"
   },
   "Flex layout": {
     "prefix": "flex-layout",
@@ -319,10 +284,10 @@
     ],
     "description": "Change autofill input background"
   },
-  "CSS for margin auto": {
+  "Center block": {
     "prefix": "center-block",
     "body": ["display: block;margin: 0 auto;"],
-    "description": "CSS for margin auto"
+    "description": "Center block"
   },
   "Show element": {
     "prefix": "css-show",
@@ -507,21 +472,6 @@
       "}"
     ],
     "description": "Custom scrollbar"
-  },
-  "Flexbox align baseline": {
-    "prefix": "fabase",
-    "body": ["display: flex;", "align-items: baseline;"],
-    "description": "Flexbox align baseline"
-  },
-  "Flexbox align end": {
-    "prefix": "faend",
-    "body": ["display: flex;", "align-items: flex-end;"],
-    "description": "Flexbox align end"
-  },
-  "Flexbox align start": {
-    "prefix": "fastart",
-    "body": ["display: flex;", "align-items: flex-start;"],
-    "description": "Flexbox align start"
   },
   "Width full": {
     "prefix": "wfull",
@@ -749,7 +699,7 @@
     "description": "Rounded inherit"
   },
   "Input caret": {
-    "prefix": "input-caret",
+    "prefix": "input-caret-color",
     "body": ["caret-color: $1;"],
     "description": "Input caret"
   },

@@ -27,77 +27,103 @@
 
 ## Table of CSS snippets 🧑‍💻
 
-| Prefix              | Code                                                                                                             |
-| ------------------- | ---------------------------------------------------------------------------------------------------------------- |
-| `get-shadow1->5`    | 5 types of beautiful box-shadow from getcssscan(get-shadow1, get-shadow2, get-shadow3, get-shadow4, get-shadow5) |
-| `center-block`      | Center with display block                                                                                        |
-| `center-inline`     | Center with display inline-block                                                                                 |
-| `flex-center`       | Center thing with flexbox                                                                                        |
-| `flex-centerc`      | Center flexbox column direction                                                                                  |
-| `flex-image`        | Using for image when make layout row direction with flexbox                                                      |
-| `flex-col`          | Flex direction column                                                                                            |
-| `fabase`            | Flexbox align-items baseline                                                                                     |
-| `faend`             | Flexbox align-items flex-end                                                                                     |
-| `fastart`           | Flexbox align-items flex-start                                                                                   |
-| `facenter`          | Flexbox align-items: center                                                                                      |
-| `fjend`             | Flexbox justify-content flex-end                                                                                 |
-| `grid-center`       | Center with css grid                                                                                             |
-| `abs-center`        | Center top and left with position absolute                                                                       |
-| `abs-centerx`       | Center left with absolute                                                                                        |
-| `abs-centery`       | Center top with absolute                                                                                         |
-| `abs-full`          | Position absolute full base on parent                                                                            |
-| `fixed-full`        | Position fixed full                                                                                              |
-| `abs-top-left`      | Position absolute top left                                                                                       |
-| `abs-top-right`     | Position absolute top right                                                                                      |
-| `abs-bottom-left`   | Position absolute bottom left                                                                                    |
-| `abs-bottom-right`  | Position absolute bottom left                                                                                    |
-| `abs-full-width`    | Position absolute full width                                                                                     |
-| `abs-full-height`   | Position absolute full height                                                                                    |
-| `abs-dropdown`      | Using when you make dropdown list absolute or dropdown menu when parent have `position` property                 |
-| `text-truncate`     | Text overflow multiple lines with three dots...                                                                  |
-| `text-single`       | Text overflow single line with threed dots...`                                                                   |
-| `text-style`        | Useful css for text                                                                                              |
-| `text-gradient`     | Create text gradient                                                                                             |
-| `flex-layout`       | Useful when making flexbox layout column                                                                         |
-| `grid-layout`       | Another way to making layout fast with css grid                                                                  |
-| `ohidden`           | Overflow hidden                                                                                                  |
-| `xhidden`           | Overflow x hidden                                                                                                |
-| `yhidden`           | Overflow y hidden                                                                                                |
-| `xauto`             | Overflow x auto                                                                                                  |
-| `yauto`             | Overflow y auto                                                                                                  |
-| `uppercase`         | Text transform to UPPERCASE                                                                                      |
-| `lowercase`         | Text transform to lowercase                                                                                      |
-| `capitalize`        | Text transform to Capitalize                                                                                     |
-| `bold`              | Make text bold                                                                                                   |
-| `italic`            | Make text italic                                                                                                 |
-| `@1279`             | Media screen and max width 1279px                                                                                |
-| `@1023`             | Media screen and max width 1023px                                                                                |
-| `@767`              | Media screen and max width 767px                                                                                 |
-| `@768`              | Media screen and min width 768px                                                                                 |
-| `@1024`             | Media screen and min width 1024px                                                                                |
-| `@1280`             | Media screen and min width 1280px                                                                                |
-| `random-image`      | Get random image from url of Unsplash, useful when code with `src` of img tag                                    |
-| `css-reset`         | Some useful css reset code when you start coding css                                                             |
-| `scroll-hide`       | Just hide scrollbar                                                                                              |
-| `input-spin-hide`   | Hide input spin with input[type="number"]                                                                        |
-| `input-placeholder` | Change input placeholder color                                                                                   |
-| `img-responsive`    | Responsive image by ratio                                                                                        |
-| `img-cover`         | Image cover full                                                                                                 |
-| `grid-scroll-snap`  | Apply css scroll snap useful when making simple slider with only css                                             |
-| `@max-w`            | Media query for max-width                                                                                        |
-| `@min-w`            | Media query for min-width                                                                                        |
-| `input-style`       | Default css for input                                                                                            |
-| `button-style`      | Default css for button                                                                                           |
-| `modal-style`       | CSS for common modal                                                                                             |
-| `css-hide`          | Hide element to use transition effect later with css-show                                                        |
-| `css-show`          | Show element when using css-hide before                                                                          |
-| `linear-gradient`   | CSS background linear gradient                                                                                   |
-| `@supports`         | Support rule in css for properties did not support for most browsers                                             |
-| `@keyframes`        | Keyframes animation                                                                                              |
-| `scrollbar-style`   | Custom scrollbar style                                                                                           |
-| `square`            | Create fast square                                                                                               |
-| `rect`              | Create fast rectangle                                                                                            |
-| `circle`            | Create fast circle                                                                                               |
-| `wfull`             | Make width full 100%                                                                                             |
-| `hfull`             | Make height full 100%                                                                                            |
-| `sfull`             | Make width and height full 100%                                                                                  |
+| Prefix               | Code                                                                                                             |
+| -------------------- | ---------------------------------------------------------------------------------------------------------------- |
+| `get-shadow1->5`     | 5 types of beautiful box-shadow from getcssscan(get-shadow1, get-shadow2, get-shadow3, get-shadow4, get-shadow5) |
+| `center-block`       | Center with display block                                                                                        |
+| `center-inline`      | Center with display inline-block                                                                                 |
+| `flex-center`        | Center thing with flexbox                                                                                        |
+| `flex-centerc`       | Center flexbox column direction                                                                                  |
+| `flex-image`         | Using for image when make layout row direction with flexbox                                                      |
+| `flex-col`           | Flex direction column                                                                                            |
+| `facenter`           | Flexbox align-items: center                                                                                      |
+| `grid-center`        | Center with css grid                                                                                             |
+| `abs-center`         | Center top and left with position absolute                                                                       |
+| `abs-centerx`        | Center left with absolute                                                                                        |
+| `abs-centery`        | Center top with absolute                                                                                         |
+| `abs-full`           | Position absolute full base on parent                                                                            |
+| `fixed-full`         | Position fixed full                                                                                              |
+| `abs-top-left`       | Position absolute top left                                                                                       |
+| `abs-top-right`      | Position absolute top right                                                                                      |
+| `abs-bottom-left`    | Position absolute bottom left                                                                                    |
+| `abs-bottom-right`   | Position absolute bottom left                                                                                    |
+| `abs-full-width`     | Position absolute full width                                                                                     |
+| `abs-full-height`    | Position absolute full height                                                                                    |
+| `abs-dropdown`       | Using when you make dropdown list absolute or dropdown menu when parent have `position` property                 |
+| `text-truncate`      | Text overflow multiple lines with three dots...                                                                  |
+| `text-single`        | Text overflow single line with threed dots...`                                                                   |
+| `text-style`         | Useful css for text                                                                                              |
+| `text-gradient`      | Create text gradient                                                                                             |
+| `flex-layout`        | Useful when making flexbox layout column                                                                         |
+| `grid-layout`        | Another way to making layout fast with css grid                                                                  |
+| `ohidden`            | Overflow hidden                                                                                                  |
+| `xhidden`            | Overflow x hidden                                                                                                |
+| `yhidden`            | Overflow y hidden                                                                                                |
+| `xauto`              | Overflow x auto                                                                                                  |
+| `yauto`              | Overflow y auto                                                                                                  |
+| `uppercase`          | Text transform to UPPERCASE                                                                                      |
+| `lowercase`          | Text transform to lowercase                                                                                      |
+| `capitalize`         | Text transform to Capitalize                                                                                     |
+| `bold`               | Make text bold                                                                                                   |
+| `italic`             | Make text italic                                                                                                 |
+| `@1279`              | Media screen and max width 1279px                                                                                |
+| `@1023`              | Media screen and max width 1023px                                                                                |
+| `@767`               | Media screen and max width 767px                                                                                 |
+| `@768`               | Media screen and min width 768px                                                                                 |
+| `@1024`              | Media screen and min width 1024px                                                                                |
+| `@1280`              | Media screen and min width 1280px                                                                                |
+| `random-image`       | Get random image from url of Unsplash, useful when code with `src` of img tag                                    |
+| `css-reset`          | Some useful css reset code when you start coding css                                                             |
+| `scrollbar-hidden`   | Just hide scrollbar                                                                                              |
+| `input-hide-spinner` | Hide input spin with input[type="number"]                                                                        |
+| `input-placeholder`  | Change input placeholder color                                                                                   |
+| `input-caret-color`  | Change input caret color                                                                                         |
+| `img-responsive`     | Responsive image by ratio                                                                                        |
+| `img-cover`          | Image cover full                                                                                                 |
+| `grid-scroll-snap`   | Apply css scroll snap useful when making simple slider with only css                                             |
+| `@max-w`             | Media query for max-width                                                                                        |
+| `@min-w`             | Media query for min-width                                                                                        |
+| `modal-style`        | CSS for common modal                                                                                             |
+| `css-hide`           | Hide element to use transition effect later with css-show                                                        |
+| `css-show`           | Show element when using css-hide before                                                                          |
+| `linear-gradient`    | CSS background linear gradient                                                                                   |
+| `@supports`          | Support rule in css for properties did not support for most browsers                                             |
+| `@keyframes`         | Keyframes animation                                                                                              |
+| `scrollbar-style`    | Custom scrollbar style                                                                                           |
+| `square`             | Create fast square                                                                                               |
+| `rect`               | Create fast rectangle                                                                                            |
+| `circle`             | Create fast circle                                                                                               |
+| `wfull`              | Make width full 100%                                                                                             |
+| `hfull`              | Make height full 100%                                                                                            |
+| `sfull`              | Make width and height full 100%                                                                                  |
+| `tap-highlight`      | Remove tap highlight color                                                                                       |
+| `@hover`             | Media query for hover                                                                                            |
+| `@light-mode`        | Media query for light mode                                                                                       |
+| `@dark-mode`         | Media query for dark mode                                                                                        |
+| `@reduce-animation`  | Media query for reduce animation                                                                                 |
+| `ratio-number`       | Using aspect-ratio                                                                                               |
+| `text-smooth`        | Make text smooth                                                                                                 |
+| `scroll-smooth`      | Make scroll smooth                                                                                               |
+| `overscroll-y`       | Using overscroll vertical                                                                                        |
+| `overscroll-x`       | Using overscroll horizontal                                                                                      |
+| `text-stroke`        | Text stroke styles                                                                                               |
+| `hyphen-auto`        | Hyphens auto                                                                                                     |
+| `break-word`         | Break word for long word                                                                                         |
+| `break-all`          | Break all for long word                                                                                          |
+| `ratio-calc`         | Using ratio with padding hacks                                                                                   |
+| `bg-cover`           | Background size cover                                                                                            |
+| `object-cover`       | Using object-fit: cover                                                                                          |
+| `object-fill`        | Using object-fit: fill                                                                                           |
+| `w-min`              | Width min-content                                                                                                |
+| `w-max`              | Width max-content                                                                                                |
+| `w-fit`              | Width fit-content                                                                                                |
+| `mx-auto`            | Center with margin                                                                                               |
+| `shrink0`            | Using flex-shrink: 0                                                                                             |
+| `border-none`        | Make border none                                                                                                 |
+| `outline-none`       | Make outline none                                                                                                |
+| `leading-`           | Common line-height                                                                                               |
+| `text-`              | Text align                                                                                                       |
+| `pointer`            | Cursor pointer                                                                                                   |
+| `pointer-none`       | Pointer events none                                                                                              |
+| `dropdown-spacing`   | Fake dropdown spacing                                                                                            |
+| `pointer-none`       | Pointer events none                                                                                              |
