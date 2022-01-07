@@ -208,5 +208,67 @@
       "</div>"
     ],
     "description": "Search form button"
+  },
+  "Navigation with logo and menu": {
+    "prefix": "html-nav-logo-menu",
+    "body": [
+      "<div class=\"\">",
+      "  <a href=\"#\" class=\"logo\">",
+      "    <img src=\"logo\" alt=\"\" class=\"logo-image\" />",
+      "  </a>",
+      "  <ul class=\"menu\">",
+      "    <li class=\"menu-item\">",
+      "      <a href=\"#\" class=\"menu-link\"></a>",
+      "    </li>",
+      "  </ul>",
+      "  <div class=\"\">",
+      "    <a href=\"#!\">Contact Us</a>",
+      "  </div>",
+      "</div>"
+    ],
+    "description": "Navigation with logo and menu"
+  },
+  "Simple layout": {
+    "prefix": "html-boxed-content",
+    "body": [
+      "<div class=\"\">",
+      "  <div class=\"\">",
+      "    <img src=\"\" alt=\"\">",
+      "  </div>",
+      "  <div class=\"\">Heading</div>",
+      "  <p class=\"\">Description</p>",
+      "</div>"
+    ],
+    "description": "Simple layout"
+  },
+  "Layout image with label": {
+    "prefix": "html-image-w-label",
+    "body": [
+      "<div class=\"\">",
+      "  <img src=\"\" alt=\"\">",
+      "  <span></span>",
+      "</div>"
+    ],
+    "description": "Layout image with label"
+  },
+  "Layout input with icon": {
+    "prefix": "html-input-icon",
+    "body": [
+      "<div class=\"field\">",
+      "  <input type=\"text\" placeholder=\"\" class=\"field-input\" />",
+      "  <div class=\"field-icon\"></div>",
+      "</div>"
+    ],
+    "description": "Layout input with icon"
+  },
+  "Custom checkbox": {
+    "prefix": "html-custom-checkbox",
+    "body": [
+      "<div class=\"\">",
+      "  <input type=\"$1\" style=\"display: none !important\" name=\"\" id=\"\" />",
+      "  <div class=\"\"></div>",
+      "</div>"
+    ],
+    "description": "Custom checkbox"
   }
 }

@@ -23,5 +23,42 @@
       "});"
     ],
     "description": "Menu mobile toggle"
+  },
+  "Check exist and length": {
+    "prefix": "js-check-length",
+    "body": ["if (!$1 || $1.length <= 0) return null;", ""],
+    "description": "Check exist and length"
+  },
+  "Using useState": {
+    "prefix": "react-use-state",
+    "body": ["const [$1, $2] = useState($3);", "", ""],
+    "description": "Using useState"
+  },
+  "Display time VN": {
+    "prefix": "js-date-vn",
+    "body": ["{new Date($1).toLocaleDateString(\"vi-VI\")}", "", ""],
+    "description": "Display time VN"
+  },
+  "React using useEffect": {
+    "prefix": "react-use-effect",
+    "body": [
+      "useEffect(() => {",
+      "  // ",
+      "  return () => {",
+      "  // ",
+      "  }",
+      "}, []);"
+    ],
+    "description": "React using useEffect"
+  },
+  "React using useRef": {
+    "prefix": "react-use-ref",
+    "body": ["const $1 = useRef($2:null);", ""],
+    "description": "React using useRef"
+  },
+  "React array rendering list": {
+    "prefix": "react-array-list",
+    "body": ["{Array($1).fill(0).map((item, index) => (", "", "))}"],
+    "description": "React array rendering list"
   }
 }
