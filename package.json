@@ -42,14 +42,6 @@
         "path": "./snippets/ui.code-snippets"
       },
       {
-        "language": "svelte",
-        "path": "./snippets/html.code-snippets"
-      },
-      {
-        "language": "svelte",
-        "path": "./snippets/ui.code-snippets"
-      },
-      {
         "language": "javascript",
         "path": "./snippets/javascriptreact.code-snippets"
       },

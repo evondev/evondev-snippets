@@ -1,3 +1,6 @@
 node_modules
 *.vsix
 .history
+demo.css
+demo.html
+demo.js
