@@ -24,23 +24,18 @@
     ],
     "description": "Menu mobile toggle"
   },
-  "Check exist and length": {
-    "prefix": "js-check-length",
-    "body": ["if (!$1 || $1.length <= 0) return null;", ""],
-    "description": "Check exist and length"
-  },
   "Using useState": {
-    "prefix": "react-use-state",
+    "prefix": "usestate",
     "body": ["const [$1, $2] = useState($3);", "", ""],
     "description": "Using useState"
   },
   "Display time VN": {
-    "prefix": "js-date-vn",
+    "prefix": "format-date-vn",
     "body": ["{new Date($1).toLocaleDateString(\"vi-VI\")}", "", ""],
     "description": "Display time VN"
   },
   "React using useEffect": {
-    "prefix": "react-use-effect",
+    "prefix": "useffect",
     "body": [
       "useEffect(() => {",
       "  // ",
@@ -52,13 +47,34 @@
     "description": "React using useEffect"
   },
   "React using useRef": {
-    "prefix": "react-use-ref",
+    "prefix": "useref",
     "body": ["const $1 = useRef($2:null);", ""],
     "description": "React using useRef"
   },
   "React array rendering list": {
-    "prefix": "react-array-list",
+    "prefix": "render-array-list",
     "body": ["{Array($1).fill(0).map((item, index) => (", "", "))}"],
     "description": "React array rendering list"
+  },
+  "Quick copy to clipboard": {
+    "prefix": "clipboard-copy",
+    "body": [
+      "navigator.clipboard?.writeText && navigator.clipboard.writeText($1);"
+    ],
+    "description": "Quick copy to clipboard"
+  },
+  "Scroll to top": {
+    "prefix": "scroll-to-top",
+    "body": [
+      "document.body.scrollIntoView({ behavior: \"smooth\", block: \"start\" });"
+    ],
+    "description": "Scroll to top"
+  },
+  "Scroll to bottom": {
+    "prefix": "scroll-to-bottom",
+    "body": [
+      "document.body.scrollIntoView({ behavior: \"smooth\", block: \"end\" });"
+    ],
+    "description": "Scroll to bottom"
   }
 }
