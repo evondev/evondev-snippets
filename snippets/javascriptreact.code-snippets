@@ -24,32 +24,10 @@
     ],
     "description": "Menu mobile toggle"
   },
-  "Using useState": {
-    "prefix": "usestate",
-    "body": ["const [$1, $2] = useState($3);", "", ""],
-    "description": "Using useState"
-  },
   "Display time VN": {
     "prefix": "format-date-vn",
     "body": ["{new Date($1).toLocaleDateString(\"vi-VI\")}", "", ""],
     "description": "Display time VN"
-  },
-  "React using useEffect": {
-    "prefix": "useffect",
-    "body": [
-      "useEffect(() => {",
-      "  // ",
-      "  return () => {",
-      "  // ",
-      "  }",
-      "}, []);"
-    ],
-    "description": "React using useEffect"
-  },
-  "React using useRef": {
-    "prefix": "useref",
-    "body": ["const $1 = useRef($2:null);", ""],
-    "description": "React using useRef"
   },
   "React array rendering list": {
     "prefix": "render-array-list",
