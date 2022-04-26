@@ -54,5 +54,36 @@
       "document.body.scrollIntoView({ behavior: \"smooth\", block: \"end\" });"
     ],
     "description": "Scroll to bottom"
+  },
+  "Using PropTypes in React": {
+    "prefix": "react-proptypes",
+    "body": [
+      "import PropTypes from \"prop-types\";",
+      "$1.propTypes = {",
+      "  // value: PropTypes.string",
+      "}"
+    ],
+    "description": "Using PropTypes in React"
+  },
+  "Import styled-components in React": {
+    "prefix": "react-styled-c",
+    "body": ["import styled from \"styled-components\";", ""],
+    "description": "Import styled-components in React"
+  },
+  "Using react hook form in react": {
+    "prefix": "react-hook-form",
+    "body": [
+      "const {",
+      "  control,",
+      "  setValue,",
+      "  getValues,",
+      "  watch,",
+      "  formState: { isValid, isSubmitting, errors },",
+      "} = useForm({",
+      "  mode: \"onChange\",",
+      "  defaultValues: {},",
+      "});"
+    ],
+    "description": "Using react hook form in react"
   }
 }
