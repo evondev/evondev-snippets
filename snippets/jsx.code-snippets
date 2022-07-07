@@ -248,5 +248,15 @@
     "prefix": "random-image",
     "body": ["https://source.unsplash.com/random"],
     "description": "Get image random from Unsplash"
+  },
+  "React array rendering list": {
+    "prefix": "render-array-list",
+    "body": ["{Array($1).fill(0).map((item, index) => (", "", "))}"],
+    "description": "React array rendering list"
+  },
+  "Display time VN": {
+    "prefix": "format-date-vn",
+    "body": ["{new Date($1).toLocaleDateString(\"vi-VI\")}", "", ""],
+    "description": "Display time VN"
   }
 }

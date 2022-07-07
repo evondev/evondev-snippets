@@ -24,11 +24,6 @@
     "body": ["{new Date($1).toLocaleDateString(\"vi-VI\")}", "", ""],
     "description": "Display time VN"
   },
-  "React array rendering list": {
-    "prefix": "render-array-list",
-    "body": ["{Array($1).fill(0).map((item, index) => (", "", "))}"],
-    "description": "React array rendering list"
-  },
   "Quick copy to clipboard": {
     "prefix": "clipboard-copy",
     "body": [
