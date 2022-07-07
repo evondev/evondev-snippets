@@ -2,8 +2,8 @@
 
 All notable changes to the "evondev-snippets" extension will be documented in this file.
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+## Release note
 
-## [Unreleased]
+### 0.4.23
 
-- Initial release
+- Add some snippets for using HeroIcons start with `heroicon-`
