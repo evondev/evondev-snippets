@@ -3,7 +3,7 @@
   "displayName": "Evondev snippets",
   "description": "Useful HTML CSS snippets for Frontend Developer",
   "publisher": "evondev",
-  "version": "0.4.31",
+  "version": "0.4.32",
   "engines": {
     "vscode": "^1.20.0"
   },
@@ -96,6 +96,22 @@
       {
         "language": "jsx-attr",
         "path": "./snippets/global.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/react.code-snippets"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./snippets/react.code-snippets"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/react.code-snippets"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/react.code-snippets"
       }
     ]
   }
