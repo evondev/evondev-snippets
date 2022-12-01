@@ -1,4 +1,4 @@
-# **Coding HTML & CSS faster than ever ⚡️🚀**
+# **Coding Frontend faster than ever ⚡️🚀**
 
 [![Version](https://vsmarketplacebadge.apphb.com/version/evondev.evondev-snippets.svg)](https://marketplace.visualstudio.com/items?itemName=evondev.evondev-snippets)
 [![Rating](https://vsmarketplacebadge.apphb.com/rating/evondev.evondev-snippets.svg)](https://marketplace.visualstudio.com/items?itemName=evondev.evondev-snippets)
@@ -72,7 +72,6 @@
 | `@768`               | Media screen and min width 768px                                                                                 |
 | `@1024`              | Media screen and min width 1024px                                                                                |
 | `@1280`              | Media screen and min width 1280px                                                                                |
-| `random-image`       | Get random image from url of Unsplash, useful when code with `src` of img tag                                    |
 | `css-reset`          | Some useful css reset code when you start coding css                                                             |
 | `scrollbar-hidden`   | Just hide scrollbar                                                                                              |
 | `input-hide-spinner` | Hide input spin with input[type="number"]                                                                        |
@@ -127,3 +126,27 @@
 | `pointer-none`       | Pointer events none                                                                                              |
 | `dropdown-spacing`   | Fake dropdown spacing                                                                                            |
 | `pointer-none`       | Pointer events none                                                                                              |
+
+## Table of UI snippets 🧑‍💻
+
+| Prefix            | Code                              |
+| ----------------- | --------------------------------- |
+| `e-ui-dropdown`   | Display Dropdown UI               |
+| `e-ui-switch`     | Display Switch UI                 |
+| `e-ui-modal`      | Display Modal UI                  |
+| `e-ui-flexbox`    | Display common Flexbox UI         |
+| `e-ui-checkbox`   | Display simple Checkbox UI        |
+| `e-ui-tab`        | Display simple Tab UI             |
+| `e-ui-input-icon` | Display simple Input with Icon UI |
+
+## Table of JS snippets 🧑‍💻
+
+| Prefix               | Code                             |
+| -------------------- | -------------------------------- |
+| `random-image`       | Get random image from Unsplash   |
+| `render-array-list`  | Rendering list in React          |
+| `format-date-vn`     | Format date VietNam time         |
+| `clipboard-copy`     | Copy to clipboard with navigator |
+| `scroll-to-top`      | Scroll to top                    |
+| `scroll-to-bottom`   | Scroll to bottom                 |
+| `menu-mobile-toggle` | Common mobile toggle function    |
