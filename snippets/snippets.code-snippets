@@ -983,5 +983,40 @@
     "prefix": "w-screen",
     "body": ["width: 100vw;"],
     "description": "Width screen"
+  },
+  "Background repeat": {
+    "prefix": "bg-repeat",
+    "body": ["background-repeat: repeat;"],
+    "description": "Background repeat"
+  },
+  "Background norepeat": {
+    "prefix": "bg-no-repeat",
+    "body": ["background-repeat: no-repeat;"],
+    "description": "Background norepeat"
+  },
+  "Background repeat x": {
+    "prefix": "bg-repeatx",
+    "body": ["background-repeat: repeat-x;"],
+    "description": "Background repeat x"
+  },
+  "Background repeat y": {
+    "prefix": "bg-repeaty",
+    "body": ["background-repeat: repeat-y;"],
+    "description": "Background repeat y"
+  },
+  "Background contain": {
+    "prefix": "bg-size-contain",
+    "body": ["background-size: contain;"],
+    "description": "Background contain"
+  },
+  "Background size full": {
+    "prefix": "bg-size-full",
+    "body": ["background-size: 100%;"],
+    "description": "Background size full"
+  },
+  "Background clip text": {
+    "prefix": "bg-clip-text",
+    "body": ["background-clip: text;", "-webkit-background-clip: text;"],
+    "description": "Background clip text"
   }
 }
