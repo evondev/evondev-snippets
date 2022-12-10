@@ -261,13 +261,10 @@
   "Grid layout": {
     "prefix": "grid-layout",
     "body": [
-      ".${1:your-class}{",
-      "    --columns: 4;",
-      "    --gap: 20px;",
-      "    display: grid;",
-      "    grid-template-columns: repeat(var(--columns), minmax(0, 1fr));",
-      "    grid-gap: var(--gap);",
-      "}"
+      "display: grid;",
+      "grid-auto-flow: column;",
+      "grid-auto-columns: minmax(0,1fr);",
+      "grid-gap: 0px"
     ],
     "description": "Grid layout"
   },
@@ -842,10 +839,10 @@
     "body": ["hyphens: auto;"],
     "description": "Hyphen"
   },
-  "Ratio image": {
-    "prefix": "ratio-image",
+  "Ratio video": {
+    "prefix": "ratio-video",
     "body": ["aspect-ratio: 16/9"],
-    "description": "Ratio image"
+    "description": "Ratio video"
   },
   "Text stroke": {
     "prefix": "text-stroke",
@@ -890,7 +887,8 @@
     "prefix": "text-smooth",
     "body": [
       "text-rendering: optimizeLegibility;",
-      "-webkit-font-smoothing: antialiased;"
+      "-webkit-font-smoothing: antialiased;",
+      "-moz-osx-font-smoothing: grayscale;"
     ],
     "description": "Text smooth"
   },
@@ -970,5 +968,20 @@
       "}"
     ],
     "description": "CSS Reset"
+  },
+  "Height screen": {
+    "prefix": "h-screen",
+    "body": ["height: 100vh;"],
+    "description": "Height screen"
+  },
+  "Min height screen": {
+    "prefix": "min-h-screen",
+    "body": ["min-height: 100vh;"],
+    "description": "Min height screen"
+  },
+  "Width screen": {
+    "prefix": "w-screen",
+    "body": ["width: 100vw;"],
+    "description": "Width screen"
   }
 }

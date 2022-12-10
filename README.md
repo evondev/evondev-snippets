@@ -29,6 +29,9 @@
 
 | Prefix               | Code                                                                                                             |
 | -------------------- | ---------------------------------------------------------------------------------------------------------------- |
+| `h-screen`           | Height 100vh                                                                                                     |
+| `w-screen`           | Width 100vw                                                                                                      |
+| `min-h-screen`       | Min height 100vh                                                                                                 |
 | `get-shadow1->5`     | 5 types of beautiful box-shadow from getcssscan(get-shadow1, get-shadow2, get-shadow3, get-shadow4, get-shadow5) |
 | `center-block`       | Center with display block                                                                                        |
 | `center-inline`      | Center with display inline-block                                                                                 |
@@ -100,7 +103,6 @@
 | `@light-mode`        | Media query for light mode                                                                                       |
 | `@dark-mode`         | Media query for dark mode                                                                                        |
 | `@reduce-animation`  | Media query for reduce animation                                                                                 |
-| `ratio-number`       | Using aspect-ratio                                                                                               |
 | `text-smooth`        | Make text smooth                                                                                                 |
 | `scroll-smooth`      | Make scroll smooth                                                                                               |
 | `overscroll-y`       | Using overscroll vertical                                                                                        |
@@ -109,7 +111,10 @@
 | `hyphen-auto`        | Hyphens auto                                                                                                     |
 | `break-word`         | Break word for long word                                                                                         |
 | `break-all`          | Break all for long word                                                                                          |
+| `ratio-number`       | Using aspect-ratio                                                                                               |
 | `ratio-calc`         | Using ratio with padding hacks                                                                                   |
+| `ratio-video`        | Using ratio with 16/9                                                                                            |
+| `ratio-square`       | Using ratio with 1/1                                                                                             |
 | `bg-cover`           | Background size cover                                                                                            |
 | `object-cover`       | Using object-fit: cover                                                                                          |
 | `object-fill`        | Using object-fit: fill                                                                                           |
@@ -124,7 +129,6 @@
 | `text-`              | Text align                                                                                                       |
 | `pointer`            | Cursor pointer                                                                                                   |
 | `pointer-none`       | Pointer events none                                                                                              |
-| `dropdown-spacing`   | Fake dropdown spacing                                                                                            |
 | `pointer-none`       | Pointer events none                                                                                              |
 
 ## Table of UI snippets 🧑‍💻
@@ -141,12 +145,11 @@
 
 ## Table of JS snippets 🧑‍💻
 
-| Prefix               | Code                             |
-| -------------------- | -------------------------------- |
-| `random-image`       | Get random image from Unsplash   |
-| `render-array-list`  | Rendering list in React          |
-| `format-date-vn`     | Format date VietNam time         |
-| `clipboard-copy`     | Copy to clipboard with navigator |
-| `scroll-to-top`      | Scroll to top                    |
-| `scroll-to-bottom`   | Scroll to bottom                 |
-| `menu-mobile-toggle` | Common mobile toggle function    |
+| Prefix              | Code                             |
+| ------------------- | -------------------------------- |
+| `random-image`      | Get random image from Unsplash   |
+| `render-array-list` | Rendering list in React          |
+| `format-date-vn`    | Format date VietNam time         |
+| `clipboard-copy`    | Copy to clipboard with navigator |
+| `scroll-to-top`     | Scroll to top                    |
+| `scroll-to-bottom`  | Scroll to bottom                 |
