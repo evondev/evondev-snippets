@@ -525,23 +525,33 @@
     "body": ["text-transform: lowercase;"],
     "description": "Text lowercase"
   },
-  "Font weight medium": {
-    "prefix": "medium",
-    "body": ["font-weight: 600;"],
-    "description": "Font weight medium"
+  "Font weight normal": {
+    "prefix": "font-normal",
+    "body": ["font-weight: 400;"],
+    "description": "Font weight normal"
+  },
+  "Font weight light": {
+    "prefix": "font-light",
+    "body": ["font-weight: 300;"],
+    "description": "Font weight light"
+  },
+  "Font weight thin": {
+    "prefix": "font-thin",
+    "body": ["font-weight: 200;"],
+    "description": "Font weight thin"
   },
   "Font weight semibold": {
-    "prefix": "semibold",
+    "prefix": "font-semibold",
     "body": ["font-weight: 600;"],
     "description": "Font weight semibold"
   },
   "Font weight bold": {
-    "prefix": "bold",
+    "prefix": "font-bold",
     "body": ["font-weight: bold;"],
     "description": "Font weight bold"
   },
   "Font weight bolder": {
-    "prefix": "bolder",
+    "prefix": "font-bolder",
     "body": ["font-weight: 800;"],
     "description": "Font weight bolder"
   },
@@ -1127,5 +1137,30 @@
       "grid-auto-columns: $0;"
     ],
     "description": "Grid flow column"
+  },
+  "Text nowrap": {
+    "prefix": "text-nowrap",
+    "body": ["whitespace: nowrap"],
+    "description": "Text nowrap"
+  },
+  "Display flex": {
+    "prefix": "flex",
+    "body": ["display: flex;"],
+    "description": "Display flex"
+  },
+  "Display inline-flex": {
+    "prefix": "inline-flex",
+    "body": ["display: inline-flex;"],
+    "description": "Display inline-flex"
+  },
+  "Rounded none": {
+    "prefix": "rounded-none",
+    "body": ["border-radius: 0;"],
+    "description": "Rounded none"
+  },
+  "Hidden": {
+    "prefix": "hidden",
+    "body": ["display: none;"],
+    "description": "Hidden"
   }
 }
