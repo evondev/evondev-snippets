@@ -1,9 +1,5 @@
 # **Coding Frontend faster than ever ⚡️🚀**
 
-[![Version](https://vsmarketplacebadge.apphb.com/version/evondev.evondev-snippets.svg)](https://marketplace.visualstudio.com/items?itemName=evondev.evondev-snippets)
-[![Rating](https://vsmarketplacebadge.apphb.com/rating/evondev.evondev-snippets.svg)](https://marketplace.visualstudio.com/items?itemName=evondev.evondev-snippets)
-[![Downloads](https://vsmarketplacebadge.apphb.com/downloads/evondev.evondev-snippets.svg)](https://marketplace.visualstudio.com/items?itemName=evondev.evondev-snippets)
-
 ## Table of HTML snippets 🧑‍💻
 
 | Prefix                | Code                                                     |
