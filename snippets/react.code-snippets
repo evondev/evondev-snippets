@@ -143,5 +143,14 @@
       ""
     ],
     "description": "React useToggle"
+  },
+  "React conditional wrapper": {
+    "prefix": "e-conditional-wrapper",
+    "body": [
+      "const ConditionalWrapper = ({ condition, wrapper, children }) =>",
+      "  condition ? wrapper(children) : children;",
+      ""
+    ],
+    "description": "React conditional wrapper"
   }
 }

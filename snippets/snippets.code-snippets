@@ -1099,5 +1099,33 @@
     "prefix": "border-thin",
     "body": ["border: 1px solid ${1:#eee};$0", ""],
     "description": "Border thin"
+  },
+  "Shadow none": {
+    "prefix": "shadow-none",
+    "body": ["box-shadow: none;"],
+    "description": "Shadow none"
+  },
+  "Scroll snap parent": {
+    "prefix": "snap-parent",
+    "body": [
+      "scroll-snap-type: x mandatory;",
+      "scroll-snap-stop: always;",
+      "overflow-x: auto;"
+    ],
+    "description": "Scroll snap parent"
+  },
+  "Scroll snap item": {
+    "prefix": "snap-item",
+    "body": ["scroll-snap-align: start;"],
+    "description": "Scroll snap item"
+  },
+  "Grid flow column": {
+    "prefix": "grid-flow-column",
+    "body": [
+      "display: grid;",
+      "grid-auto-flow: column;",
+      "grid-auto-columns: $0;"
+    ],
+    "description": "Grid flow column"
   }
 }
