@@ -1118,12 +1118,12 @@
     "description": "Text nowrap"
   },
   "Display flex": {
-    "prefix": "flex",
+    "prefix": "dflex",
     "body": ["display: flex;"],
     "description": "Display flex"
   },
   "Display inline-flex": {
-    "prefix": "inline-flex",
+    "prefix": "diflex",
     "body": ["display: inline-flex;"],
     "description": "Display inline-flex"
   },
@@ -1183,5 +1183,20 @@
       ""
     ],
     "description": "CSS Reset"
+  },
+  "Flex wrap": {
+    "prefix": "fwrap",
+    "body": ["flex-wrap: wrap;"],
+    "description": "Flex wrap"
+  },
+  "Flex nowrap": {
+    "prefix": "fnowrap",
+    "body": ["flex-wrap: nowrap;"],
+    "description": "Flex nowrap"
+  },
+  "Flex wrap reverse": {
+    "prefix": "fwraprev",
+    "body": ["flex-wrap: wrap-reverse;"],
+    "description": "Flex wrap reverse"
   }
 }
