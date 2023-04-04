@@ -1114,7 +1114,7 @@
   },
   "Text nowrap": {
     "prefix": "text-nowrap",
-    "body": ["whitespace: nowrap"],
+    "body": ["white-space: nowrap"],
     "description": "Text nowrap"
   },
   "Display flex": {
