@@ -1006,77 +1006,92 @@
 
   "Element next Element": {
     "prefix": "cl-next-sibling",
-    "body": ["${1:element} + ${1:element}$0"],
+    "body": ["${1:element} + ${1:element}{$0}"],
     "description": "Element next Element"
   },
   "Elment same sibling": {
     "prefix": "cl-same-sibling",
-    "body": ["${1:element} ~ ${1:element}$0"],
+    "body": ["${1:element} ~ ${1:element}{$0}"],
     "description": "Elment same sibling"
   },
   "Element hover": {
     "prefix": "el-hover",
-    "body": ["${1:element}:hover$0"],
+    "body": ["${1:element}:hover{$0}"],
     "description": "Element hover"
   },
   "Element focus": {
     "prefix": "el-focus",
-    "body": ["${1:element}:focus$0"],
+    "body": ["${1:element}:focus{$0}"],
     "description": "Element focus"
   },
   "Element after": {
     "prefix": "el-after",
-    "body": ["${1:element}:after$0"],
+    "body": ["${1:element}:after{$0}"],
     "description": "Element after"
   },
   "Element before": {
     "prefix": "el-before",
-    "body": ["${1:element}:before$0"],
+    "body": ["${1:element}:before{$0}"],
     "description": "Element before"
   },
   "Element valid": {
     "prefix": "el-valid",
-    "body": ["${1:element}:valid$0"],
+    "body": ["${1:element}:valid{$0}"],
     "description": "Element valid"
   },
   "Element invalid": {
     "prefix": "el-invalid",
-    "body": ["${1:element}:invalid$0"],
+    "body": ["${1:element}:invalid{$0}"],
     "description": "Element invalid"
   },
   "Element first-child": {
     "prefix": "el-first-child",
-    "body": ["${1:element}:first-child$0"],
+    "body": ["${1:element}:first-child{$0}"],
     "description": "Element first-child"
   },
   "Element last-child": {
     "prefix": "el-last-child",
-    "body": ["${1:element}:last-child$0"],
+    "body": ["${1:element}:last-child{$0}"],
     "description": "Element last-child"
+  },
+  "Element nth-child": {
+    "prefix": "el-nth-child",
+    "body": ["${1:element}:nth-child{$0}"],
+    "description": "Element nth-child"
+  },
+  "Element nth last child": {
+    "prefix": "el-nth-last-child",
+    "body": ["${1:element}:nth-last-child{$0}"],
+    "description": "Element nth last child"
+  },
+  "Property inherit": {
+    "prefix": "prop-inherit",
+    "body": ["$1: inherit;$0"],
+    "description": "Property inherit"
   },
   "Element first-letter": {
     "prefix": "el-first-letter",
-    "body": ["${1:element}:first-letter$0"],
+    "body": ["${1:element}:first-letter{$0}"],
     "description": "Element first-letter"
   },
   "Element first-line": {
     "prefix": "el-first-line",
-    "body": ["${1:element}:first-line$0"],
+    "body": ["${1:element}:first-line{$0}"],
     "description": "Element first-line"
   },
   "Element not selector": {
     "prefix": "el-not",
-    "body": ["${1:element}:not($2)$0"],
+    "body": ["${1:element}:not($2){$0}"],
     "description": "Element not selector"
   },
   "Element is selector": {
     "prefix": "el-is",
-    "body": [":is($1)$0"],
+    "body": ["$1:is($2){$0}"],
     "description": "Element is selector"
   },
   "Element where selector": {
     "prefix": "el-where",
-    "body": [":where($1)$0"],
+    "body": ["$1:where($2){$0}"],
     "description": "Element where selector"
   },
   "Border thin": {
