@@ -1198,5 +1198,60 @@
     "prefix": "fwraprev",
     "body": ["flex-wrap: wrap-reverse;"],
     "description": "Flex wrap reverse"
+  },
+  "Max width full": {
+    "prefix": "maxw-full",
+    "body": ["max-width: 100%;"],
+    "description": "Max width full"
+  },
+  "Max height full": {
+    "prefix": "maxh-full",
+    "body": ["max-height: 100%;"],
+    "description": "Max height full"
+  },
+  "Border size transparent": {
+    "prefix": "border-size-transparent",
+    "body": ["border: $0px solid transparent;"],
+    "description": "Border size transparent"
+  },
+  "Padding inline": {
+    "prefix": "p-inline",
+    "body": ["padding-inline: $0;"],
+    "description": "Padding inline"
+  },
+  "Padding block": {
+    "prefix": "p-block",
+    "body": ["padding-block: $0;"],
+    "description": "Padding block"
+  },
+  "Margin block": {
+    "prefix": "m-block",
+    "body": ["margin-block: $0;"],
+    "description": "Margin block"
+  },
+  "Margin inline": {
+    "prefix": "m-inline",
+    "body": ["Margin-inline: $0;"],
+    "description": "Margin inline"
+  },
+  "Scroll margin top": {
+    "prefix": "scroll-m-top",
+    "body": ["scroll-margin-top: $0;"],
+    "description": "Scroll margin top"
+  },
+  "Scroll padding top": {
+    "prefix": "scroll-p-top",
+    "body": ["scroll-padding-top: $0;"],
+    "description": "Scroll padding top"
+  },
+  "Vertical middle": {
+    "prefix": "v-middle",
+    "body": ["vertical-align: middle"],
+    "description": "Vertical middle"
+  },
+  "Table border collapse": {
+    "prefix": "b-collapse",
+    "body": ["border-collapse: collapse;"],
+    "description": "Table border collapse"
   }
 }
