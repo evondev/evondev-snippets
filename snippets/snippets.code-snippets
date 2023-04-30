@@ -1268,5 +1268,48 @@
     "prefix": "b-collapse",
     "body": ["border-collapse: collapse;"],
     "description": "Table border collapse"
+  },
+  "Use container queries": {
+    "prefix": "use-container",
+    "body": ["container-type: inline-size;", "container-name: $0;"],
+    "description": "Use container queries"
+  },
+  "Container name": {
+    "prefix": "container-name",
+    "body": ["@container $1 ($2) {", "  $0", "}"],
+    "description": "Container name"
+  },
+  "Container style": {
+    "prefix": "container-style",
+    "body": ["@container $1 style($2) {", "  $0", "}"],
+    "description": "Container style"
+  },
+  "Media query": {
+    "prefix": "media-query",
+    "body": ["@media ($1) {", "  $0", "}"],
+    "description": "Media query"
+  },
+  "Seperator vertical": {
+    "prefix": "sep-vertical",
+    "body": [
+      "content: \"\";",
+      "display: block;",
+      "height: 1px;",
+      "background-color: lightgrey;",
+      "margin-block: var(--gap);"
+    ],
+    "description": "Seperator vertical"
+  },
+  "Seperator horizontal": {
+    "prefix": "sep-horizontal",
+    "body": [
+      "content: \"\";",
+      "display: block;",
+      "width: 1px;",
+      "height: 100%;",
+      "background-color: lightgrey;",
+      "margin-inline: var(--gap);"
+    ],
+    "description": "Seperator horizontal"
   }
 }
