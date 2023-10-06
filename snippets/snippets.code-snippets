@@ -1311,5 +1311,30 @@
       "margin-inline: var(--gap);"
     ],
     "description": "Seperator horizontal"
+  },
+  "Position full": {
+    "prefix": "pos-full",
+    "body": ["$0: 100%;"],
+    "description": "Position full"
+  },
+  "Position negative full": {
+    "prefix": "-pos-full",
+    "body": ["$0: -100%;"],
+    "description": "Position negative full"
+  },
+  "Position half": {
+    "prefix": "pos-half",
+    "body": ["$0: 50%;"],
+    "description": "Position half"
+  },
+  "Position negative half": {
+    "prefix": "-pos-half",
+    "body": ["$0: -50%;"],
+    "description": "Position negative half"
+  },
+  "Translate 3d": {
+    "prefix": "trans3d",
+    "body": ["transform: translate3d(${1:0}, ${0:0}, 0);"],
+    "description": "Translate 3d"
   }
 }
